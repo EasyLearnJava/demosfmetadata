@@ -1,0 +1,1179 @@
+{
+  "metadata": {
+    "total_relationships": 202,
+    "cross_object_relationships": 3,
+    "objects_analyzed": [
+      "Contact",
+      "Opportunity"
+    ]
+  },
+  "relationships": [
+    {
+      "from": "object_Account",
+      "to": "field_Account_AccountNumber",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_AccountSource",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Active__c",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_AnnualRevenue",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_BillingAddress",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_CleanStatus",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_CustomerPriority__c",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_DandbCompanyId",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Description",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_DunsNumber",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Fax",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Industry",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Jigsaw",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_NaicsCode",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_NaicsDesc",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Name",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_NumberOfEmployees",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_NumberofLocations__c",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_OperatingHoursId",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_OwnerId",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Ownership",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_ParentId",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Phone",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Rating",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_ShippingAddress",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Sic",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_SicDesc",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Site",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_SLAExpirationDate__c",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_SLASerialNumber__c",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_SLA__c",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_TickerSymbol",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Tier",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Tradestyle",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Type",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_UpsellOpportunity__c",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Website",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_YearStarted",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "listview_Account_AllAccounts",
+      "type": "HAS_LISTVIEW"
+    },
+    {
+      "from": "object_Account",
+      "to": "listview_Account_MyAccounts",
+      "type": "HAS_LISTVIEW"
+    },
+    {
+      "from": "object_Account",
+      "to": "listview_Account_NewLastWeek",
+      "type": "HAS_LISTVIEW"
+    },
+    {
+      "from": "object_Account",
+      "to": "listview_Account_NewThisWeek",
+      "type": "HAS_LISTVIEW"
+    },
+    {
+      "from": "object_Account",
+      "to": "listview_Account_PlatinumandGoldSLACustomers",
+      "type": "HAS_LISTVIEW"
+    },
+    {
+      "from": "object_Account",
+      "to": "weblink_Account_Billing",
+      "type": "HAS_WEBLINK"
+    },
+    {
+      "from": "object_Account",
+      "to": "layout_Account-Account_Marketing_Layout",
+      "type": "HAS_LAYOUT",
+      "details": "Layout displays 28 fields"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_TickerSymbol",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field TickerSymbol is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_ParentId",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field ParentId is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_BillingAddress",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field BillingAddress is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_Type",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Type is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_AnnualRevenue",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field AnnualRevenue is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_SLA__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field SLA__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_Active__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Active__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_OwnerId",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field OwnerId is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_NumberofLocations__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field NumberofLocations__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_Ownership",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Ownership is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_SLASerialNumber__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field SLASerialNumber__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_CustomerPriority__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field CustomerPriority__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_Fax",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Fax is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_Name",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Name is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_LastModifiedById",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field LastModifiedById is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_SLAExpirationDate__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field SLAExpirationDate__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_Description",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Description is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_Website",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Website is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_NumberOfEmployees",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field NumberOfEmployees is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_Site",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Site is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_Industry",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Industry is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_Rating",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Rating is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_CreatedById",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field CreatedById is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_Sic",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Sic is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_ShippingAddress",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field ShippingAddress is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_AccountNumber",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field AccountNumber is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_UpsellOpportunity__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field UpsellOpportunity__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_Phone",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Phone is displayed on layout"
+    },
+    {
+      "from": "object_Account",
+      "to": "layout_Account-Account_Sales_Layout",
+      "type": "HAS_LAYOUT",
+      "details": "Layout displays 28 fields"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_TickerSymbol",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field TickerSymbol is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_ParentId",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field ParentId is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_BillingAddress",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field BillingAddress is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_Type",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Type is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_AnnualRevenue",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field AnnualRevenue is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_SLA__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field SLA__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_Active__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Active__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_OwnerId",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field OwnerId is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_NumberofLocations__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field NumberofLocations__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_Ownership",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Ownership is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_SLASerialNumber__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field SLASerialNumber__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_CustomerPriority__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field CustomerPriority__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_Fax",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Fax is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_Name",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Name is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_LastModifiedById",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field LastModifiedById is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_SLAExpirationDate__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field SLAExpirationDate__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_Description",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Description is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_Website",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Website is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_NumberOfEmployees",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field NumberOfEmployees is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_Site",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Site is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_Industry",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Industry is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_Rating",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Rating is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_CreatedById",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field CreatedById is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_Sic",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Sic is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_ShippingAddress",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field ShippingAddress is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_AccountNumber",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field AccountNumber is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_UpsellOpportunity__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field UpsellOpportunity__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_Phone",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Phone is displayed on layout"
+    },
+    {
+      "from": "object_Account",
+      "to": "layout_Account-Account_Support_Layout",
+      "type": "HAS_LAYOUT",
+      "details": "Layout displays 28 fields"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_TickerSymbol",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field TickerSymbol is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_ParentId",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field ParentId is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_BillingAddress",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field BillingAddress is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_Type",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Type is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_AnnualRevenue",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field AnnualRevenue is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_SLA__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field SLA__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_Active__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Active__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_OwnerId",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field OwnerId is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_NumberofLocations__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field NumberofLocations__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_Ownership",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Ownership is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_SLASerialNumber__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field SLASerialNumber__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_CustomerPriority__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field CustomerPriority__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_Fax",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Fax is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_Name",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Name is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_LastModifiedById",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field LastModifiedById is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_SLAExpirationDate__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field SLAExpirationDate__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_Description",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Description is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_Website",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Website is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_NumberOfEmployees",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field NumberOfEmployees is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_Site",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Site is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_Industry",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Industry is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_Rating",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Rating is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_CreatedById",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field CreatedById is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_Sic",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Sic is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_ShippingAddress",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field ShippingAddress is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_AccountNumber",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field AccountNumber is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_UpsellOpportunity__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field UpsellOpportunity__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_Phone",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Phone is displayed on layout"
+    },
+    {
+      "from": "object_Account",
+      "to": "layout_Account-Account_Layout",
+      "type": "HAS_LAYOUT",
+      "details": "Layout displays 28 fields"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_TickerSymbol",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field TickerSymbol is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_ParentId",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field ParentId is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_BillingAddress",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field BillingAddress is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_Type",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Type is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_AnnualRevenue",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field AnnualRevenue is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_SLA__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field SLA__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_Active__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Active__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_OwnerId",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field OwnerId is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_NumberofLocations__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field NumberofLocations__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_Ownership",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Ownership is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_SLASerialNumber__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field SLASerialNumber__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_CustomerPriority__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field CustomerPriority__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_Fax",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Fax is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_Name",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Name is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_LastModifiedById",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field LastModifiedById is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_SLAExpirationDate__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field SLAExpirationDate__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_Description",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Description is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_Website",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Website is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_NumberOfEmployees",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field NumberOfEmployees is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_Site",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Site is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_Industry",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Industry is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_Rating",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Rating is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_CreatedById",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field CreatedById is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_Sic",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Sic is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_ShippingAddress",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field ShippingAddress is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_AccountNumber",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field AccountNumber is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_UpsellOpportunity__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field UpsellOpportunity__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_Phone",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Phone is displayed on layout"
+    },
+    {
+      "from": "class_AccountCallOutService",
+      "to": "class_AccountCallOutServiceHelper",
+      "type": "DEPENDS_ON_CLASS",
+      "details": "Calls methods or instantiates class"
+    },
+    {
+      "from": "class_AccountCallOutService",
+      "to": "class_AccountCallOutServiceHelper",
+      "type": "CALLS_METHOD",
+      "details": "Calls method sendHttpRequest"
+    },
+    {
+      "from": "class_AccountCallOutService",
+      "to": "class_AccountCallOutServiceHelper",
+      "type": "CALLS_METHOD",
+      "details": "Calls method getRequestToken"
+    },
+    {
+      "from": "class_AccountCallOutServiceHelper",
+      "to": "object_Http",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountCallOutServiceHelper",
+      "to": "object_ManageUsersOrgSettings__c",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountCallOutServiceHelper",
+      "to": "object_Jwt",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountCallOutServiceHelper",
+      "to": "object_Object",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountCallOutServiceHelper",
+      "to": "object_HttpRequest",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountCallOutServiceHelper",
+      "to": "class_EncodingUtil",
+      "type": "DEPENDS_ON_CLASS",
+      "details": "Calls methods or instantiates class"
+    },
+    {
+      "from": "class_AccountCallOutServiceHelper",
+      "to": "class_Jwt",
+      "type": "DEPENDS_ON_CLASS",
+      "details": "Calls methods or instantiates class"
+    },
+    {
+      "from": "class_AccountCallOutServiceHelper",
+      "to": "field_ManageUsersOrgSettings__c_InstanceURL__c",
+      "type": "ACCESSES_FIELD",
+      "details": "Accesses field InstanceURL__c on ManageUsersOrgSettings__c"
+    },
+    {
+      "from": "class_AccountCallOutServiceHelper",
+      "to": "field_ManageUsersOrgSettings__c_LoginURL__c",
+      "type": "ACCESSES_FIELD",
+      "details": "Accesses field LoginURL__c on ManageUsersOrgSettings__c"
+    },
+    {
+      "from": "class_AccountCallOutServiceHelper",
+      "to": "class_EncodingUtil",
+      "type": "CALLS_METHOD",
+      "details": "Calls method base64Encode"
+    },
+    {
+      "from": "class_AccountCallOutServiceHelper",
+      "to": "webservice_https___login.salesforce.com_services_oauth2_token",
+      "type": "CALLS_WEBSERVICE",
+      "details": "Makes HTTP callout to https://login.salesforce.com/services/oauth2/token"
+    },
+    {
+      "from": "class_AccountCallOutServiceHelper",
+      "to": "webservice_https___dynegy--raghudev.sandbox.my.salesforce.com_services_oauth2_token",
+      "type": "CALLS_WEBSERVICE",
+      "details": "Makes HTTP callout to https://dynegy--raghudev.sandbox.my.salesforce.com/services/oauth2/token"
+    },
+    {
+      "from": "class_AccountEmailHelper",
+      "to": "emailtemplate_Messaging.sendEmail",
+      "type": "USES_EMAIL_TEMPLATE",
+      "details": "Uses email template for messaging"
+    },
+    {
+      "from": "class_AccountEmailHelper",
+      "to": "emailtemplate_Messaging.SingleEmailMessage",
+      "type": "USES_EMAIL_TEMPLATE",
+      "details": "Uses email template for messaging"
+    },
+    {
+      "from": "class_AccountHandler",
+      "to": "object_conList",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountHandler",
+      "to": "object_Id",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountHandler",
+      "to": "object_accRecord",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountHandler",
+      "to": "object_Account",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountHandler",
+      "to": "object_old",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountHandler",
+      "to": "object_new",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountHandler",
+      "to": "object_do",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountHandler",
+      "to": "object_Contact",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountHandler",
+      "to": "object_ID",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountHandler",
+      "to": "class_Contact",
+      "type": "DEPENDS_ON_CLASS",
+      "details": "Calls methods or instantiates class"
+    },
+    {
+      "from": "class_AccountHandler",
+      "to": "class_AnimalCallOutService",
+      "type": "DEPENDS_ON_CLASS",
+      "details": "Calls methods or instantiates class"
+    },
+    {
+      "from": "class_AccountHandler",
+      "to": "class_AnimalCallOutService",
+      "type": "CALLS_METHOD",
+      "details": "Calls method getAnimalDetailsForAccount"
+    },
+    {
+      "from": "class_AccountHandlerTest",
+      "to": "object_acc",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountHandlerTest",
+      "to": "object_Account",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountHandlerTest",
+      "to": "class_Account",
+      "type": "DEPENDS_ON_CLASS",
+      "details": "Calls methods or instantiates class"
+    },
+    {
+      "from": "class_AccountHandlerTest",
+      "to": "field_Account_Industry",
+      "type": "ACCESSES_FIELD",
+      "details": "Accesses field Industry on Account"
+    },
+    {
+      "from": "object_Account",
+      "to": "trigger_AccountTrigger",
+      "type": "HAS_TRIGGER",
+      "details": "Trigger events: before insert, before update, after insert, after update"
+    },
+    {
+      "from": "trigger_AccountTrigger",
+      "to": "class_AccountHandler",
+      "type": "DELEGATES_TO_HANDLER",
+      "details": "Trigger delegates business logic to handler class"
+    },
+    {
+      "from": "trigger_AccountTrigger",
+      "to": "object_UI",
+      "type": "AFFECTS_OBJECT",
+      "details": "Trigger performs operations on UI"
+    },
+    {
+      "from": "trigger_AccountTrigger",
+      "to": "object_sceario",
+      "type": "AFFECTS_OBJECT",
+      "details": "Trigger performs operations on sceario"
+    },
+    {
+      "from": "trigger_AccountTrigger",
+      "to": "object_Integer",
+      "type": "AFFECTS_OBJECT",
+      "details": "Trigger performs operations on Integer"
+    },
+    {
+      "from": "object_Account",
+      "to": "workflow_Account",
+      "type": "HAS_WORKFLOW"
+    },
+    {
+      "from": "Contact",
+      "to": "Account",
+      "type": "BELONGS_TO",
+      "context": "Contact.AccountId lookup field"
+    },
+    {
+      "from": "Opportunity",
+      "to": "Account",
+      "type": "BELONGS_TO",
+      "context": "Opportunity.AccountId lookup field"
+    },
+    {
+      "from": "Opportunity",
+      "to": "Contact",
+      "type": "RELATES_TO",
+      "context": "Opportunity can have Contact roles"
+    }
+  ]
+}

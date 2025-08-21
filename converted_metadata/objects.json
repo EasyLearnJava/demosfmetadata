@@ -1,0 +1,908 @@
+[
+  {
+    "id": "object_Account",
+    "type": "CustomObject",
+    "name": "Account",
+    "metadata": {
+      "actionOverrides": [
+        {
+          "actionName": "CallHighlightAction",
+          "type": "Default"
+        },
+        {
+          "actionName": "CallHighlightAction",
+          "formFactor": "Large",
+          "type": "Default"
+        },
+        {
+          "actionName": "CallHighlightAction",
+          "formFactor": "Small",
+          "type": "Default"
+        },
+        {
+          "actionName": "CancelEdit",
+          "type": "Default"
+        },
+        {
+          "actionName": "CancelEdit",
+          "formFactor": "Large",
+          "type": "Default"
+        },
+        {
+          "actionName": "CancelEdit",
+          "formFactor": "Small",
+          "type": "Default"
+        },
+        {
+          "actionName": "Delete",
+          "type": "Default"
+        },
+        {
+          "actionName": "Delete",
+          "formFactor": "Large",
+          "type": "Default"
+        },
+        {
+          "actionName": "Delete",
+          "formFactor": "Small",
+          "type": "Default"
+        },
+        {
+          "actionName": "Edit",
+          "type": "Default"
+        },
+        {
+          "actionName": "Edit",
+          "formFactor": "Large",
+          "type": "Default"
+        },
+        {
+          "actionName": "Edit",
+          "formFactor": "Small",
+          "type": "Default"
+        },
+        {
+          "actionName": "EmailHighlightAction",
+          "type": "Default"
+        },
+        {
+          "actionName": "EmailHighlightAction",
+          "formFactor": "Large",
+          "type": "Default"
+        },
+        {
+          "actionName": "EmailHighlightAction",
+          "formFactor": "Small",
+          "type": "Default"
+        },
+        {
+          "actionName": "EnableCustomerPortalUser",
+          "type": "Default"
+        },
+        {
+          "actionName": "EnableCustomerPortalUser",
+          "formFactor": "Large",
+          "type": "Default"
+        },
+        {
+          "actionName": "EnableCustomerPortalUser",
+          "formFactor": "Small",
+          "type": "Default"
+        },
+        {
+          "actionName": "List",
+          "type": "Default"
+        },
+        {
+          "actionName": "List",
+          "formFactor": "Large",
+          "type": "Default"
+        },
+        {
+          "actionName": "List",
+          "formFactor": "Small",
+          "type": "Default"
+        },
+        {
+          "actionName": "ListClean",
+          "type": "Default"
+        },
+        {
+          "actionName": "ListClean",
+          "formFactor": "Large",
+          "type": "Default"
+        },
+        {
+          "actionName": "ListClean",
+          "formFactor": "Small",
+          "type": "Default"
+        },
+        {
+          "actionName": "New",
+          "type": "Default"
+        },
+        {
+          "actionName": "New",
+          "formFactor": "Large",
+          "type": "Default"
+        },
+        {
+          "actionName": "New",
+          "formFactor": "Small",
+          "type": "Default"
+        },
+        {
+          "actionName": "RequestUpdate",
+          "type": "Default"
+        },
+        {
+          "actionName": "RequestUpdate",
+          "formFactor": "Large",
+          "type": "Default"
+        },
+        {
+          "actionName": "RequestUpdate",
+          "formFactor": "Small",
+          "type": "Default"
+        },
+        {
+          "actionName": "ResumeBilling",
+          "type": "Default"
+        },
+        {
+          "actionName": "ResumeBilling",
+          "formFactor": "Large",
+          "type": "Default"
+        },
+        {
+          "actionName": "ResumeBilling",
+          "formFactor": "Small",
+          "type": "Default"
+        },
+        {
+          "actionName": "SaveEdit",
+          "type": "Default"
+        },
+        {
+          "actionName": "SaveEdit",
+          "formFactor": "Large",
+          "type": "Default"
+        },
+        {
+          "actionName": "SaveEdit",
+          "formFactor": "Small",
+          "type": "Default"
+        },
+        {
+          "actionName": "SmsHighlightAction",
+          "type": "Default"
+        },
+        {
+          "actionName": "SmsHighlightAction",
+          "formFactor": "Large",
+          "type": "Default"
+        },
+        {
+          "actionName": "SmsHighlightAction",
+          "formFactor": "Small",
+          "type": "Default"
+        },
+        {
+          "actionName": "SuspendBilling",
+          "type": "Default"
+        },
+        {
+          "actionName": "SuspendBilling",
+          "formFactor": "Large",
+          "type": "Default"
+        },
+        {
+          "actionName": "SuspendBilling",
+          "formFactor": "Small",
+          "type": "Default"
+        },
+        {
+          "actionName": "Tab",
+          "type": "Default"
+        },
+        {
+          "actionName": "Tab",
+          "formFactor": "Large",
+          "type": "Default"
+        },
+        {
+          "actionName": "Tab",
+          "formFactor": "Small",
+          "type": "Default"
+        },
+        {
+          "actionName": "View",
+          "comment": "Action override created by Lightning App Builder during activation.",
+          "content": "Account_Record_Page",
+          "formFactor": "Large",
+          "skipRecordTypeSelect": "false",
+          "type": "Flexipage"
+        },
+        {
+          "actionName": "View",
+          "comment": "Action override created by Lightning App Builder during activation.",
+          "content": "Account_Record_Page",
+          "formFactor": "Small",
+          "skipRecordTypeSelect": "false",
+          "type": "Flexipage"
+        },
+        {
+          "actionName": "View",
+          "type": "Default"
+        },
+        {
+          "actionName": "ViewCustomerPortalUser",
+          "type": "Default"
+        },
+        {
+          "actionName": "ViewCustomerPortalUser",
+          "formFactor": "Large",
+          "type": "Default"
+        },
+        {
+          "actionName": "ViewCustomerPortalUser",
+          "formFactor": "Small",
+          "type": "Default"
+        },
+        {
+          "actionName": "WebsiteHighlightAction",
+          "type": "Default"
+        },
+        {
+          "actionName": "WebsiteHighlightAction",
+          "formFactor": "Large",
+          "type": "Default"
+        },
+        {
+          "actionName": "WebsiteHighlightAction",
+          "formFactor": "Small",
+          "type": "Default"
+        }
+      ],
+      "compactLayoutAssignment": "SYSTEM",
+      "enableFeeds": "true",
+      "enableHistory": "false",
+      "externalSharingModel": "Private",
+      "searchLayouts": {
+        "customTabListAdditionalFields": [
+          "ACCOUNT.NAME",
+          "ACCOUNT.ADDRESS1_CITY",
+          "ACCOUNT.PHONE1"
+        ],
+        "lookupDialogsAdditionalFields": [
+          "ACCOUNT.NAME",
+          "ACCOUNT.SITE",
+          "CORE.USERS.ALIAS",
+          "ACCOUNT.TYPE"
+        ],
+        "lookupPhoneDialogsAdditionalFields": [
+          "ACCOUNT.NAME",
+          "ACCOUNT.SITE",
+          "CORE.USERS.ALIAS",
+          "ACCOUNT.TYPE",
+          "ACCOUNT.PHONE1",
+          "ACCOUNT.PHONE2"
+        ],
+        "searchResultsAdditionalFields": [
+          "ACCOUNT.NAME",
+          "ACCOUNT.SITE",
+          "ACCOUNT.PHONE1",
+          "CORE.USERS.ALIAS"
+        ]
+      },
+      "sharingModel": "ReadWrite"
+    },
+    "fields": [
+      {
+        "id": "field_Account_AccountNumber",
+        "type": "CustomField",
+        "name": "AccountNumber",
+        "object": "Account",
+        "metadata": {
+          "fullName": "AccountNumber",
+          "trackFeedHistory": "false"
+        }
+      },
+      {
+        "id": "field_Account_AccountSource",
+        "type": "CustomField",
+        "name": "AccountSource",
+        "object": "Account",
+        "metadata": {
+          "fullName": "AccountSource",
+          "trackFeedHistory": "false",
+          "type": "Picklist"
+        }
+      },
+      {
+        "id": "field_Account_Active__c",
+        "type": "CustomField",
+        "name": "Active__c",
+        "object": "Account",
+        "metadata": {
+          "fullName": "Active__c",
+          "label": "Active",
+          "required": "false",
+          "trackFeedHistory": "false",
+          "type": "Picklist",
+          "valueSet": {
+            "valueSetDefinition": {
+              "sorted": "false",
+              "value": [
+                {
+                  "fullName": "No",
+                  "default": "false",
+                  "label": "No"
+                },
+                {
+                  "fullName": "Yes",
+                  "default": "false",
+                  "label": "Yes"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "field_Account_AnnualRevenue",
+        "type": "CustomField",
+        "name": "AnnualRevenue",
+        "object": "Account",
+        "metadata": {
+          "fullName": "AnnualRevenue",
+          "trackFeedHistory": "false"
+        }
+      },
+      {
+        "id": "field_Account_BillingAddress",
+        "type": "CustomField",
+        "name": "BillingAddress",
+        "object": "Account",
+        "metadata": {
+          "fullName": "BillingAddress",
+          "trackFeedHistory": "false"
+        }
+      },
+      {
+        "id": "field_Account_CleanStatus",
+        "type": "CustomField",
+        "name": "CleanStatus",
+        "object": "Account",
+        "metadata": {
+          "fullName": "CleanStatus",
+          "trackFeedHistory": "false"
+        }
+      },
+      {
+        "id": "field_Account_CustomerPriority__c",
+        "type": "CustomField",
+        "name": "CustomerPriority__c",
+        "object": "Account",
+        "metadata": {
+          "fullName": "CustomerPriority__c",
+          "label": "Customer Priority",
+          "required": "false",
+          "trackFeedHistory": "false",
+          "type": "Picklist",
+          "valueSet": {
+            "valueSetDefinition": {
+              "sorted": "false",
+              "value": [
+                {
+                  "fullName": "High",
+                  "default": "false",
+                  "label": "High"
+                },
+                {
+                  "fullName": "Low",
+                  "default": "false",
+                  "label": "Low"
+                },
+                {
+                  "fullName": "Medium",
+                  "default": "false",
+                  "label": "Medium"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "field_Account_DandbCompanyId",
+        "type": "CustomField",
+        "name": "DandbCompanyId",
+        "object": "Account",
+        "metadata": {
+          "fullName": "DandbCompanyId",
+          "trackFeedHistory": "false",
+          "type": "Lookup"
+        }
+      },
+      {
+        "id": "field_Account_Description",
+        "type": "CustomField",
+        "name": "Description",
+        "object": "Account",
+        "metadata": {
+          "fullName": "Description",
+          "trackFeedHistory": "false"
+        }
+      },
+      {
+        "id": "field_Account_DunsNumber",
+        "type": "CustomField",
+        "name": "DunsNumber",
+        "object": "Account",
+        "metadata": {
+          "fullName": "DunsNumber",
+          "trackFeedHistory": "false"
+        }
+      },
+      {
+        "id": "field_Account_Fax",
+        "type": "CustomField",
+        "name": "Fax",
+        "object": "Account",
+        "metadata": {
+          "fullName": "Fax",
+          "trackFeedHistory": "false"
+        }
+      },
+      {
+        "id": "field_Account_Industry",
+        "type": "CustomField",
+        "name": "Industry",
+        "object": "Account",
+        "metadata": {
+          "fullName": "Industry",
+          "trackFeedHistory": "false",
+          "type": "Picklist"
+        }
+      },
+      {
+        "id": "field_Account_Jigsaw",
+        "type": "CustomField",
+        "name": "Jigsaw",
+        "object": "Account",
+        "metadata": {
+          "fullName": "Jigsaw",
+          "trackFeedHistory": "false"
+        }
+      },
+      {
+        "id": "field_Account_NaicsCode",
+        "type": "CustomField",
+        "name": "NaicsCode",
+        "object": "Account",
+        "metadata": {
+          "fullName": "NaicsCode",
+          "trackFeedHistory": "false"
+        }
+      },
+      {
+        "id": "field_Account_NaicsDesc",
+        "type": "CustomField",
+        "name": "NaicsDesc",
+        "object": "Account",
+        "metadata": {
+          "fullName": "NaicsDesc",
+          "trackFeedHistory": "false"
+        }
+      },
+      {
+        "id": "field_Account_Name",
+        "type": "CustomField",
+        "name": "Name",
+        "object": "Account",
+        "metadata": {
+          "fullName": "Name",
+          "trackFeedHistory": "true"
+        }
+      },
+      {
+        "id": "field_Account_NumberOfEmployees",
+        "type": "CustomField",
+        "name": "NumberOfEmployees",
+        "object": "Account",
+        "metadata": {
+          "fullName": "NumberOfEmployees",
+          "trackFeedHistory": "false"
+        }
+      },
+      {
+        "id": "field_Account_NumberofLocations__c",
+        "type": "CustomField",
+        "name": "NumberofLocations__c",
+        "object": "Account",
+        "metadata": {
+          "fullName": "NumberofLocations__c",
+          "externalId": "false",
+          "label": "Number of Locations",
+          "precision": "3",
+          "required": "false",
+          "scale": "0",
+          "trackFeedHistory": "false",
+          "type": "Number",
+          "unique": "false"
+        }
+      },
+      {
+        "id": "field_Account_OperatingHoursId",
+        "type": "CustomField",
+        "name": "OperatingHoursId",
+        "object": "Account",
+        "metadata": {
+          "fullName": "OperatingHoursId",
+          "trackFeedHistory": "false",
+          "type": "Lookup"
+        }
+      },
+      {
+        "id": "field_Account_OwnerId",
+        "type": "CustomField",
+        "name": "OwnerId",
+        "object": "Account",
+        "metadata": {
+          "fullName": "OwnerId",
+          "trackFeedHistory": "true",
+          "type": "Lookup"
+        }
+      },
+      {
+        "id": "field_Account_Ownership",
+        "type": "CustomField",
+        "name": "Ownership",
+        "object": "Account",
+        "metadata": {
+          "fullName": "Ownership",
+          "trackFeedHistory": "false",
+          "type": "Picklist"
+        }
+      },
+      {
+        "id": "field_Account_ParentId",
+        "type": "CustomField",
+        "name": "ParentId",
+        "object": "Account",
+        "metadata": {
+          "fullName": "ParentId",
+          "trackFeedHistory": "false",
+          "type": "Hierarchy"
+        }
+      },
+      {
+        "id": "field_Account_Phone",
+        "type": "CustomField",
+        "name": "Phone",
+        "object": "Account",
+        "metadata": {
+          "fullName": "Phone",
+          "trackFeedHistory": "false"
+        }
+      },
+      {
+        "id": "field_Account_Rating",
+        "type": "CustomField",
+        "name": "Rating",
+        "object": "Account",
+        "metadata": {
+          "fullName": "Rating",
+          "trackFeedHistory": "false",
+          "type": "Picklist"
+        }
+      },
+      {
+        "id": "field_Account_ShippingAddress",
+        "type": "CustomField",
+        "name": "ShippingAddress",
+        "object": "Account",
+        "metadata": {
+          "fullName": "ShippingAddress",
+          "trackFeedHistory": "false"
+        }
+      },
+      {
+        "id": "field_Account_Sic",
+        "type": "CustomField",
+        "name": "Sic",
+        "object": "Account",
+        "metadata": {
+          "fullName": "Sic",
+          "trackFeedHistory": "false"
+        }
+      },
+      {
+        "id": "field_Account_SicDesc",
+        "type": "CustomField",
+        "name": "SicDesc",
+        "object": "Account",
+        "metadata": {
+          "fullName": "SicDesc",
+          "trackFeedHistory": "false"
+        }
+      },
+      {
+        "id": "field_Account_Site",
+        "type": "CustomField",
+        "name": "Site",
+        "object": "Account",
+        "metadata": {
+          "fullName": "Site",
+          "trackFeedHistory": "false"
+        }
+      },
+      {
+        "id": "field_Account_SLAExpirationDate__c",
+        "type": "CustomField",
+        "name": "SLAExpirationDate__c",
+        "object": "Account",
+        "metadata": {
+          "fullName": "SLAExpirationDate__c",
+          "label": "SLA Expiration Date",
+          "required": "false",
+          "trackFeedHistory": "false",
+          "type": "Date"
+        }
+      },
+      {
+        "id": "field_Account_SLASerialNumber__c",
+        "type": "CustomField",
+        "name": "SLASerialNumber__c",
+        "object": "Account",
+        "metadata": {
+          "fullName": "SLASerialNumber__c",
+          "externalId": "false",
+          "label": "SLA Serial Number",
+          "length": "10",
+          "required": "false",
+          "trackFeedHistory": "false",
+          "type": "Text",
+          "unique": "false"
+        }
+      },
+      {
+        "id": "field_Account_SLA__c",
+        "type": "CustomField",
+        "name": "SLA__c",
+        "object": "Account",
+        "metadata": {
+          "fullName": "SLA__c",
+          "label": "SLA",
+          "required": "false",
+          "trackFeedHistory": "false",
+          "type": "Picklist",
+          "valueSet": {
+            "valueSetDefinition": {
+              "sorted": "false",
+              "value": [
+                {
+                  "fullName": "Gold",
+                  "default": "false",
+                  "label": "Gold"
+                },
+                {
+                  "fullName": "Silver",
+                  "default": "false",
+                  "label": "Silver"
+                },
+                {
+                  "fullName": "Platinum",
+                  "default": "false",
+                  "label": "Platinum"
+                },
+                {
+                  "fullName": "Bronze",
+                  "default": "false",
+                  "label": "Bronze"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "field_Account_TickerSymbol",
+        "type": "CustomField",
+        "name": "TickerSymbol",
+        "object": "Account",
+        "metadata": {
+          "fullName": "TickerSymbol",
+          "trackFeedHistory": "false"
+        }
+      },
+      {
+        "id": "field_Account_Tier",
+        "type": "CustomField",
+        "name": "Tier",
+        "object": "Account",
+        "metadata": {
+          "fullName": "Tier"
+        }
+      },
+      {
+        "id": "field_Account_Tradestyle",
+        "type": "CustomField",
+        "name": "Tradestyle",
+        "object": "Account",
+        "metadata": {
+          "fullName": "Tradestyle",
+          "trackFeedHistory": "false"
+        }
+      },
+      {
+        "id": "field_Account_Type",
+        "type": "CustomField",
+        "name": "Type",
+        "object": "Account",
+        "metadata": {
+          "fullName": "Type",
+          "trackFeedHistory": "false",
+          "type": "Picklist"
+        }
+      },
+      {
+        "id": "field_Account_UpsellOpportunity__c",
+        "type": "CustomField",
+        "name": "UpsellOpportunity__c",
+        "object": "Account",
+        "metadata": {
+          "fullName": "UpsellOpportunity__c",
+          "label": "Upsell Opportunity",
+          "required": "false",
+          "trackFeedHistory": "false",
+          "type": "Picklist",
+          "valueSet": {
+            "valueSetDefinition": {
+              "sorted": "false",
+              "value": [
+                {
+                  "fullName": "Maybe",
+                  "default": "false",
+                  "label": "Maybe"
+                },
+                {
+                  "fullName": "No",
+                  "default": "false",
+                  "label": "No"
+                },
+                {
+                  "fullName": "Yes",
+                  "default": "false",
+                  "label": "Yes"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "field_Account_Website",
+        "type": "CustomField",
+        "name": "Website",
+        "object": "Account",
+        "metadata": {
+          "fullName": "Website",
+          "trackFeedHistory": "false"
+        }
+      },
+      {
+        "id": "field_Account_YearStarted",
+        "type": "CustomField",
+        "name": "YearStarted",
+        "object": "Account",
+        "metadata": {
+          "fullName": "YearStarted",
+          "trackFeedHistory": "false"
+        }
+      }
+    ],
+    "listViews": [
+      {
+        "id": "listview_Account_AllAccounts",
+        "type": "ListView",
+        "name": "AllAccounts",
+        "object": "Account",
+        "metadata": {
+          "fullName": "AllAccounts",
+          "filterScope": "Everything",
+          "label": "All Accounts"
+        }
+      },
+      {
+        "id": "listview_Account_MyAccounts",
+        "type": "ListView",
+        "name": "MyAccounts",
+        "object": "Account",
+        "metadata": {
+          "fullName": "MyAccounts",
+          "filterScope": "Mine",
+          "label": "My Accounts"
+        }
+      },
+      {
+        "id": "listview_Account_NewLastWeek",
+        "type": "ListView",
+        "name": "NewLastWeek",
+        "object": "Account",
+        "metadata": {
+          "fullName": "NewLastWeek",
+          "filterScope": "Everything",
+          "filters": {
+            "field": "ACCOUNT.CREATED_DATE",
+            "operation": "equals",
+            "value": "LAST_WEEK"
+          },
+          "label": "New Last Week"
+        }
+      },
+      {
+        "id": "listview_Account_NewThisWeek",
+        "type": "ListView",
+        "name": "NewThisWeek",
+        "object": "Account",
+        "metadata": {
+          "fullName": "NewThisWeek",
+          "filterScope": "Everything",
+          "filters": {
+            "field": "ACCOUNT.CREATED_DATE",
+            "operation": "equals",
+            "value": "THIS_WEEK"
+          },
+          "label": "New This Week"
+        }
+      },
+      {
+        "id": "listview_Account_PlatinumandGoldSLACustomers",
+        "type": "ListView",
+        "name": "PlatinumandGoldSLACustomers",
+        "object": "Account",
+        "metadata": {
+          "fullName": "PlatinumandGoldSLACustomers",
+          "columns": [
+            "ACCOUNT.NAME",
+            "ACCOUNT.SITE",
+            "ACCOUNT.ADDRESS1_STATE",
+            "ACCOUNT.PHONE1",
+            "CORE.USERS.ALIAS"
+          ],
+          "filterScope": "Everything",
+          "label": "Platinum and Gold SLA Customers"
+        }
+      }
+    ],
+    "webLinks": [
+      {
+        "id": "weblink_Account_Billing",
+        "type": "WebLink",
+        "name": "Billing",
+        "object": "Account",
+        "metadata": {
+          "fullName": "Billing",
+          "availability": "online",
+          "displayType": "link",
+          "encodingKey": "UTF-8",
+          "hasMenubar": "true",
+          "hasScrollbars": "true",
+          "hasToolbar": "true",
+          "height": "600",
+          "isResizable": "true",
+          "linkType": "url",
+          "masterLabel": "Billing",
+          "openType": "newWindow",
+          "position": "none",
+          "protected": "false",
+          "showsLocation": "true",
+          "showsStatus": "true",
+          "url": "http://www.genwatt.com/genwatt/billing.htm?actname={!Account_Name}"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "workflow_Account",
+    "type": "Workflow",
+    "name": "Account",
+    "object": "Account",
+    "metadata": {
+      "fieldUpdates": {
+        "fullName": "Set_Description",
+        "field": "Description",
+        "formula": "Name",
+        "name": "Set Description",
+        "notifyAssignee": "false",
+        "operation": "Formula",
+        "protected": "false",
+        "reevaluateOnChange": "false"
+      },
+      "rules": {
+        "fullName": "Default Description to Account Name",
+        "actions": {
+          "name": "Set_Description",
+          "type": "FieldUpdate"
+        },
+        "active": "false",
+        "criteriaItems": {
+          "field": "Account.Name",
+          "operation": "notEqual"
+        },
+        "triggerType": "onAllChanges"
+      }
+    }
+  }
+]

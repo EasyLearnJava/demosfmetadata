@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fax_is_mandatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISNULL(Fax)</errorConditionFormula>
+    <errorMessage>Pleaase enter Fax</errorMessage>
+</ValidationRule>

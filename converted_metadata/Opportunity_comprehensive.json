@@ -1,0 +1,199 @@
+{
+  "name": "Opportunity",
+  "type": "CustomObject",
+  "fields": [
+    {
+      "name": "AccountId",
+      "type": "Lookup",
+      "label": "AccountId"
+    },
+    {
+      "name": "Amount",
+      "type": "Unknown",
+      "label": "Amount"
+    },
+    {
+      "name": "CampaignId",
+      "type": "Lookup",
+      "label": "CampaignId"
+    },
+    {
+      "name": "CloseDate",
+      "type": "Unknown",
+      "label": "CloseDate"
+    },
+    {
+      "name": "ContractId",
+      "type": "Lookup",
+      "label": "ContractId"
+    },
+    {
+      "name": "CurrentGenerators__c",
+      "type": "Text",
+      "label": "Current Generator(s)",
+      "length": "100",
+      "required": false,
+      "unique": false
+    },
+    {
+      "name": "DeliveryInstallationStatus__c",
+      "type": "Picklist",
+      "label": "Delivery/Installation Status",
+      "required": false
+    },
+    {
+      "name": "Description",
+      "type": "Unknown",
+      "label": "Description"
+    },
+    {
+      "name": "ExpectedRevenue",
+      "type": "Unknown",
+      "label": "ExpectedRevenue"
+    },
+    {
+      "name": "IqScore",
+      "type": "Unknown",
+      "label": "IqScore"
+    },
+    {
+      "name": "IsPrivate",
+      "type": "Unknown",
+      "label": "IsPrivate"
+    },
+    {
+      "name": "LeadSource",
+      "type": "Picklist",
+      "label": "LeadSource"
+    },
+    {
+      "name": "MainCompetitors__c",
+      "type": "Text",
+      "label": "Main Competitor(s)",
+      "length": "100",
+      "required": false,
+      "unique": false
+    },
+    {
+      "name": "Name",
+      "type": "Unknown",
+      "label": "Name"
+    },
+    {
+      "name": "NextStep",
+      "type": "Unknown",
+      "label": "NextStep"
+    },
+    {
+      "name": "OrderNumber__c",
+      "type": "Text",
+      "label": "Order Number",
+      "length": "8",
+      "required": false,
+      "unique": false
+    },
+    {
+      "name": "OwnerId",
+      "type": "Lookup",
+      "label": "OwnerId"
+    },
+    {
+      "name": "Pricebook2Id",
+      "type": "Lookup",
+      "label": "Pricebook2Id"
+    },
+    {
+      "name": "Probability",
+      "type": "Unknown",
+      "label": "Probability"
+    },
+    {
+      "name": "StageName",
+      "type": "Picklist",
+      "label": "StageName"
+    },
+    {
+      "name": "TotalOpportunityQuantity",
+      "type": "Unknown",
+      "label": "TotalOpportunityQuantity"
+    },
+    {
+      "name": "TrackingNumber__c",
+      "type": "Text",
+      "label": "Tracking Number",
+      "length": "12",
+      "required": false,
+      "unique": false
+    },
+    {
+      "name": "Type",
+      "type": "Picklist",
+      "label": "Type"
+    }
+  ],
+  "listViews": [
+    {
+      "name": "AllOpportunities",
+      "type": "ListView",
+      "filterScope": "Everything",
+      "label": "All Opportunities"
+    },
+    {
+      "name": "ClosingNextMonth",
+      "type": "ListView",
+      "filterScope": "Everything",
+      "label": "Closing Next Month"
+    },
+    {
+      "name": "ClosingThisMonth",
+      "type": "ListView",
+      "filterScope": "Everything",
+      "label": "Closing This Month"
+    },
+    {
+      "name": "Default_Opportunity_Pipeline",
+      "type": "ListView",
+      "filterScope": "Mine",
+      "label": "Opportunity Pipeline"
+    },
+    {
+      "name": "MyOpportunities",
+      "type": "ListView",
+      "filterScope": "Mine",
+      "label": "My Opportunities"
+    },
+    {
+      "name": "NewLastWeek",
+      "type": "ListView",
+      "filterScope": "Everything",
+      "label": "New Last Week"
+    },
+    {
+      "name": "NewThisWeek",
+      "type": "ListView",
+      "filterScope": "Everything",
+      "label": "New This Week"
+    },
+    {
+      "name": "Private",
+      "type": "ListView",
+      "filterScope": "Everything",
+      "label": "Private"
+    },
+    {
+      "name": "Won",
+      "type": "ListView",
+      "filterScope": "Everything",
+      "label": "Won"
+    }
+  ],
+  "webLinks": [
+    {
+      "name": "DeliveryStatus",
+      "type": "WebLink",
+      "displayType": "link",
+      "linkType": "url",
+      "url": "http://www.fedex.com/cgi-bin/tracking?tracknumbers={!Opportunity_Tracking_Number}&action=track&language=english&cntry_code=us"
+    }
+  ]
+}

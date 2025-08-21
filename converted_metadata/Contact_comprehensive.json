@@ -1,0 +1,220 @@
+{
+  "name": "Contact",
+  "type": "CustomObject",
+  "fields": [
+    {
+      "name": "AccountId",
+      "type": "Lookup",
+      "label": "AccountId"
+    },
+    {
+      "name": "AssistantName",
+      "type": "Unknown",
+      "label": "AssistantName"
+    },
+    {
+      "name": "AssistantPhone",
+      "type": "Unknown",
+      "label": "AssistantPhone"
+    },
+    {
+      "name": "Birthdate",
+      "type": "Unknown",
+      "label": "Birthdate"
+    },
+    {
+      "name": "BuyerAttributes",
+      "type": "Picklist",
+      "label": "BuyerAttributes"
+    },
+    {
+      "name": "CleanStatus",
+      "type": "Unknown",
+      "label": "CleanStatus"
+    },
+    {
+      "name": "ContactSource",
+      "type": "Unknown",
+      "label": "ContactSource"
+    },
+    {
+      "name": "Department",
+      "type": "Unknown",
+      "label": "Department"
+    },
+    {
+      "name": "Description",
+      "type": "Unknown",
+      "label": "Description"
+    },
+    {
+      "name": "DoNotCall",
+      "type": "Unknown",
+      "label": "DoNotCall"
+    },
+    {
+      "name": "Email",
+      "type": "Unknown",
+      "label": "Email"
+    },
+    {
+      "name": "Fax",
+      "type": "Unknown",
+      "label": "Fax"
+    },
+    {
+      "name": "GenderIdentity",
+      "type": "Picklist",
+      "label": "GenderIdentity"
+    },
+    {
+      "name": "HasOptedOutOfEmail",
+      "type": "Unknown",
+      "label": "HasOptedOutOfEmail"
+    },
+    {
+      "name": "HasOptedOutOfFax",
+      "type": "Unknown",
+      "label": "HasOptedOutOfFax"
+    },
+    {
+      "name": "HomePhone",
+      "type": "Unknown",
+      "label": "HomePhone"
+    },
+    {
+      "name": "IndividualId",
+      "type": "Lookup",
+      "label": "IndividualId"
+    },
+    {
+      "name": "Jigsaw",
+      "type": "Unknown",
+      "label": "Jigsaw"
+    },
+    {
+      "name": "Languages__c",
+      "type": "Text",
+      "label": "Languages",
+      "length": "100",
+      "required": false,
+      "unique": false
+    },
+    {
+      "name": "LastCURequestDate",
+      "type": "Unknown",
+      "label": "LastCURequestDate"
+    },
+    {
+      "name": "LastCUUpdateDate",
+      "type": "Unknown",
+      "label": "LastCUUpdateDate"
+    },
+    {
+      "name": "LeadSource",
+      "type": "Picklist",
+      "label": "LeadSource"
+    },
+    {
+      "name": "Level__c",
+      "type": "Picklist",
+      "label": "Level",
+      "required": false
+    },
+    {
+      "name": "MailingAddress",
+      "type": "Unknown",
+      "label": "MailingAddress"
+    },
+    {
+      "name": "MobilePhone",
+      "type": "Unknown",
+      "label": "MobilePhone"
+    },
+    {
+      "name": "Name",
+      "type": "Unknown",
+      "label": "Name"
+    },
+    {
+      "name": "OtherAddress",
+      "type": "Unknown",
+      "label": "OtherAddress"
+    },
+    {
+      "name": "OtherPhone",
+      "type": "Unknown",
+      "label": "OtherPhone"
+    },
+    {
+      "name": "OwnerId",
+      "type": "Lookup",
+      "label": "OwnerId"
+    },
+    {
+      "name": "Phone",
+      "type": "Unknown",
+      "label": "Phone"
+    },
+    {
+      "name": "Pronouns",
+      "type": "Picklist",
+      "label": "Pronouns"
+    },
+    {
+      "name": "ReportsToId",
+      "type": "Lookup",
+      "label": "ReportsToId"
+    },
+    {
+      "name": "Title",
+      "type": "Unknown",
+      "label": "Title"
+    }
+  ],
+  "listViews": [
+    {
+      "name": "AllContacts",
+      "type": "ListView",
+      "filterScope": "Everything",
+      "label": "All Contacts"
+    },
+    {
+      "name": "BirthdaysThisMonth",
+      "type": "ListView",
+      "filterScope": "Everything",
+      "label": "Birthdays This Month"
+    },
+    {
+      "name": "BulkMessageContacts",
+      "type": "ListView",
+      "columns": [
+        "FULL_NAME",
+        "ACCOUNT.NAME",
+        "CONTACT.PHONE3",
+        "CONTACT.LAST_ACTIVITY"
+      ],
+      "filterScope": "Everything",
+      "label": "Bulk_SMS_Contacts"
+    },
+    {
+      "name": "MyContacts",
+      "type": "ListView",
+      "filterScope": "Mine",
+      "label": "My Contacts"
+    },
+    {
+      "name": "NewLastWeek",
+      "type": "ListView",
+      "filterScope": "Everything",
+      "label": "New Last Week"
+    },
+    {
+      "name": "NewThisWeek",
+      "type": "ListView",
+      "filterScope": "Everything",
+      "label": "New This Week"
+    }
+  ],
+  "webLinks": []
+}

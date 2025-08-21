@@ -1,0 +1,172 @@
+[
+  {
+    "id": "class_AccountCallOutService",
+    "type": "ApexClass",
+    "name": "AccountCallOutService",
+    "source_code": "public class AccountCallOutService {\n    \n    public static void getAllAccounts() {         \n        try {\n            String accessToken = AccountCallOutServiceHelper.getRequestToken();\n            if (String.isNotBlank(accessToken)) {\n                String endpoint = 'https://manageusers-dev-ed.my.salesforce.com/services/apexrest/sfaccounts';\n                HttpResponse res = AccountCallOutServiceHelper.sendHttpRequest(accessToken, endpoint, 'GET', null);\n                handleResponse(res);\n            } else {\n                system.debug('Access token is null or empty');\n            }\n        } catch(Exception e) {\n            system.debug('Exception occurred: ' + e.getMessage());\n        }        \n    }\n    \n    public static void createAccount(String accName, String accPhone) {\n        try {\n            String accessToken = AccountCallOutServiceHelper.getRequestToken();\n            if (String.isNotBlank(accessToken)) {\n                String endpoint = 'https://manageusers-dev-ed.my.salesforce.com/services/apexrest/sfaccounts';\n                String requestBody = '{\"accountName\":\"' + accName + '\", \"accountPhone\":\"' + accPhone + '\"}';\n                HttpResponse res = AccountCallOutServiceHelper.sendHttpRequest(accessToken, endpoint, 'POST', requestBody);\n                handleResponse(res);\n            } else {\n                system.debug('Access token is null or empty');\n            }\n        } catch(Exception e) {\n            system.debug('Exception occurred: ' + e.getMessage());\n        }        \n    }\n    \n    public static void updateAccount(String accountId, String accOwnerShip, String accPhone) {\n        try {\n            String accessToken = AccountCallOutServiceHelper.getRequestToken();\n            if (String.isNotBlank(accessToken)) {\n                String endpoint = 'https://manageusers-dev-ed.my.salesforce.com/services/apexrest/sfaccounts/' + accountId;\n                String requestBody = '{\"accountOwnerShip\":\"' + accOwnerShip + '\", \"accountPhone\":\"' + accPhone + '\"}';\n                HttpResponse res = AccountCallOutServiceHelper.sendHttpRequest(accessToken, endpoint, 'PUT', requestBody);\n                handleResponse(res);\n            } else {\n                system.debug('Access token is null or empty');\n            }\n        } catch(Exception e) {\n            system.debug('Exception occurred: ' + e.getMessage());\n        }        \n    }\n    \n    public static void deleteAccount(String accountId) {\n        try {\n            String accessToken = AccountCallOutServiceHelper.getRequestToken();\n            if (String.isNotBlank(accessToken)) {\n                String endpoint = 'https://manageusers-dev-ed.my.salesforce.com/services/apexrest/sfaccounts/' + accountId;\n                HttpResponse res = AccountCallOutServiceHelper.sendHttpRequest(accessToken, endpoint, 'DELETE', null);\n                handleResponse(res);\n            } else {\n                system.debug('Access token is null or empty');\n            }\n        } catch(Exception e) {\n            system.debug('Exception occurred: ' + e.getMessage());\n        }        \n    }\n    \n    private static void handleResponse(HttpResponse res) {\n        if (res != null) {\n            if (res.getStatusCode() == 200) {\n                String responseBody = res.getBody();\n                system.debug('Response : ' + responseBody);\n            } else {\n                String errorMessage = 'Error: ' + res.getStatusCode() + ' - ' + res.getStatus() + '\\n' + res.getBody();\n                system.debug(errorMessage);\n            }\n        } else {\n            system.debug('Response is null');\n        }\n    }\n}",
+    "metadata": {
+      "apiVersion": "60.0",
+      "status": "Active"
+    },
+    "comprehensive_dependencies": {
+      "objects": [],
+      "classes": [
+        "AccountCallOutServiceHelper"
+      ],
+      "fields": [],
+      "methods": [
+        "AccountCallOutServiceHelper.sendHttpRequest",
+        "AccountCallOutServiceHelper.getRequestToken"
+      ],
+      "custom_settings": [],
+      "web_services": [],
+      "email_templates": [],
+      "custom_labels": [],
+      "static_resources": [],
+      "triggers": [],
+      "workflows": []
+    }
+  },
+  {
+    "id": "class_AccountCallOutServiceHelper",
+    "type": "ApexClass",
+    "name": "AccountCallOutServiceHelper",
+    "source_code": "public class AccountCallOutServiceHelper {\n    \n    public class resWrapper\n    {\n        public String id;\n        public String access_token;\n    }\n    \n    public static String getRequestToken(){\n        \n        //Get custom settings:\n        ManageUsersOrgSettings__c orgSettings = [SELECT LoginURL__c, InstanceURL__c, clientId__c, clientSecret__c, username__c, password__c FROM ManageUsersOrgSettings__c where OrgName__c = 'manageusers'];\n       \n        String reqbody = 'grant_type=password'+'&client_id='+orgSettings.clientId__c+'&client_secret='+orgSettings.clientSecret__c+'&username='+orgSettings.username__c+'&password='+orgSettings.password__c;\n        //String reqbody = 'grant_type=authorization_code'+'&client_id='+orgSettings.clientId__c+'&client_secret='+orgSettings.clientSecret__c+'&username='+orgSettings.username__c;\n        Http h1 = new Http();\n        HttpRequest req = new HttpRequest();\n        req.setBody(reqbody);\n        req.setMethod('POST');\n        req.setEndpoint('https://login.salesforce.com/services/oauth2/token');\n        HttpResponse res = h1.send(req);\n        resWrapper response = (resWrapper)JSON.deserialize(res.getBody(),resWrapper.class);\n        System.debug('response--->>>'+response);\n        return response.access_token;\n    }\n    \n    //below method has some issue, OAuthTokenFetcher is working class\n    public static String getRequestTokenv2(){\n        \n        //Get custom settings:\n        ManageUsersOrgSettings__c orgSettings = [SELECT LoginURL__c, InstanceURL__c, clientId__c, clientSecret__c, username__c, password__c FROM ManageUsersOrgSettings__c where OrgName__c = 'manageusers'];\n       \n        String cid = '3MVG9fnmEuvG9uRNA5LciEB_NzwYMIKMhCuU9FPBuljNqdDU6RpkCM.nF.jL4zRK1iY5xGSn_wLdNJQOKa3if';\n        string cs = 'CBD4D0C1C8958C508B8C2411D8AF5B4C602AC48BD1A504D82F0C4A9B565555A3';\n        String reqbody = 'grant_type=client_credentials'+'&client_id='+cid+'&client_secret='+cs;\n        String body = 'client_id='+cid+\n                      '&client_secret='+cs+\n                      '&grant_type=client_credentials';\n        Http h1 = new Http();\n        HttpRequest req = new HttpRequest();\n        req.setHeader('Content-Type', 'application/x-www-form-urlencoded');\n        req.setBody(body);\n        req.setMethod('POST');\n        req.setEndpoint('https://dynegy--raghudev.sandbox.my.salesforce.com/services/oauth2/token');\n        HttpResponse res = h1.send(req);\n        resWrapper response = (resWrapper)JSON.deserialize(res.getBody(),resWrapper.class);\n        System.debug('response--->>>'+response);\n        return response.access_token;\n    }\n    \n    public static HttpResponse sendHttpRequest(String accessToken, String endpoint, String method, String requestBody) {\n        HttpRequest req = new HttpRequest();\n        req.setEndpoint(endpoint); \n        req.setMethod(method);\n        req.setHeader('Authorization', 'Bearer ' + accessToken);\n        req.setHeader('Content-Type', 'application/json');\n        req.setHeader('Accept', 'application/json');\n        if (method != 'GET' && method != 'DELETE') {\n            req.setBody(requestBody);\n        }\n        \n        Http http = new Http();            \n        return http.send(req);\n    }\n    \n   /*    public static String getAccessToken() {\n        // Get custom settings\n        ManageUsersOrgSettings__c orgSettings = [SELECT LoginURL__c, InstanceURL__c, clientId__c, clientSecret__c, username__c, password__c, jwtPrivateKey__c FROM ManageUsersOrgSettings__c where OrgName__c = 'manageusers'];\n\n        // Generate the JWT token\n        String jwtToken = generateJWTToken(orgSettings.clientId__c, orgSettings.username__c, orgSettings.jwtPrivateKey__c);\n\n        // Exchange the JWT token for an access token\n        String accessToken = exchangeJWTForAccessToken(orgSettings.clientId__c, orgSettings.clientSecret__c, jwtToken, orgSettings.LoginURL__c);\n\n        return accessToken;\n    }\n    \n    \n private static String generateJWTToken(String clientId, String username, String jwtPrivateKey) {\n        // Generate the JWT token using the provided client ID, username, and private key\n        // This code will vary depending on the JWT library you use\n        // Example using the 'jwt-handler' library:\n        Jwt jwt = new Jwt();\n        jwt.setIssuer(clientId);\n        jwt.setSubject(username);\n        jwt.setAudience('https://login.salesforce.com');\n        jwt.setExpirationTime(System.now().addSeconds(300)); // Token expires in 5 minutes\n        return jwt.sign(jwtPrivateKey);\n    }\n    \n    private static String exchangeJWTForAccessToken(String clientId, String clientSecret, String jwtToken, String loginUrl) {\n        // Exchange the JWT token for an access token\n        Http http = new Http();\n        HttpRequest req = new HttpRequest();\n        req.setEndpoint(loginUrl + '/services/oauth2/token');\n        req.setMethod('POST');\n        req.setHeader('Content-Type', 'application/x-www-form-urlencoded');\n        req.setBody('grant_type=urn:ietf:params:oauth:grant-type:jwt-bearer&assertion=' + jwtToken);\n        //req.setHeader('Authorization', 'Basic ' + EncodingUtil.base64Encode(clientId + ':' + clientSecret));\n\n        HttpResponse res = http.send(req);\n        Map<String, Object> responseMap = (Map<String, Object>)JSON.deserializeUntyped(res.getBody());\n        return (String)responseMap.get('access_token');\n    }\n*/\n}",
+    "metadata": {
+      "apiVersion": "60.0",
+      "status": "Active"
+    },
+    "comprehensive_dependencies": {
+      "objects": [
+        "Http",
+        "ManageUsersOrgSettings__c",
+        "Jwt",
+        "Object",
+        "HttpRequest"
+      ],
+      "classes": [
+        "EncodingUtil",
+        "Jwt"
+      ],
+      "fields": [
+        "ManageUsersOrgSettings__c.InstanceURL__c",
+        "ManageUsersOrgSettings__c.LoginURL__c"
+      ],
+      "methods": [
+        "EncodingUtil.base64Encode"
+      ],
+      "custom_settings": [],
+      "web_services": [
+        "Http h1 = new Http()",
+        "https://login.salesforce.com/services/oauth2/token",
+        "Http http = new Http()",
+        "https://dynegy--raghudev.sandbox.my.salesforce.com/services/oauth2/token"
+      ],
+      "email_templates": [],
+      "custom_labels": [],
+      "static_resources": [],
+      "triggers": [],
+      "workflows": []
+    }
+  },
+  {
+    "id": "class_AccountEmailHelper",
+    "type": "ApexClass",
+    "name": "AccountEmailHelper",
+    "source_code": "public class AccountEmailHelper {\n    // Public method\n    public static void sendMail(String address, String subject, String body) {\n        // Create an email message object\n        Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();\n        String[] toAddresses = new String[] {address};\n        mail.setToAddresses(toAddresses);\n        mail.setSubject(subject);\n        mail.setPlainTextBody(body);\n        // Pass this email message to the built-in sendEmail method \n        // of the Messaging class\n        Messaging.SendEmailResult[] results = Messaging.sendEmail(\n                                  new Messaging.SingleEmailMessage[] { mail });\n        // Call a helper method to inspect the returned results\n        inspectResults(results);\n    }\n    // Helper method\n    private static Boolean inspectResults(Messaging.SendEmailResult[] results) {\n        Boolean sendResult = true;\n        // sendEmail returns an array of result objects.\n        // Iterate through the list to inspect results. \n        // In this class, the methods send only one email, \n        // so we should have only one result.\n        for (Messaging.SendEmailResult res : results) {\n            if (res.isSuccess()) {\n                System.debug('Email sent successfully');\n            }\n            else {\n                sendResult = false;\n                System.debug('The following errors occurred: ' + res.getErrors());                 \n            }\n        }\n        return sendResult;\n    }\n}",
+    "metadata": {
+      "apiVersion": "60.0",
+      "status": "Active"
+    },
+    "comprehensive_dependencies": {
+      "objects": [],
+      "classes": [],
+      "fields": [],
+      "methods": [],
+      "custom_settings": [],
+      "web_services": [],
+      "email_templates": [
+        "Messaging.sendEmail",
+        "Messaging.SingleEmailMessage"
+      ],
+      "custom_labels": [],
+      "static_resources": [],
+      "triggers": [],
+      "workflows": []
+    }
+  },
+  {
+    "id": "class_AccountHandler",
+    "type": "ApexClass",
+    "name": "AccountHandler",
+    "source_code": "public class AccountHandler {\n    \n    //Sequential \n    \n    public static void handleBeforeInsert(List<Account> newAccounts){        \n        for(Account accRecord : newAccounts){\n            system.debug('Account ID : ' + accRecord.Id); \n        }         \n    }\n    \n   public static void handleAfterInsert(List<Account> newAccounts){ \n\t\tList<Contact> conList = new List<Contact>();   \n       Set<Id> accIds = new Set<ID>();\n        for(Account accRecord : newAccounts){            \n            system.debug('Account ID : ' + accRecord.Id);            \n            Contact con = new Contact(FirstName = 'First', LastName = accRecord.Name, AccountId = accRecord.Id);\n            conList.add(con); \n            accIds.add(accRecord.Id);\n        } \n       insert conList;\n       AnimalCallOutService.getAnimalDetailsForAccount(accIds);\n       \n       \n    } \n    \n    //UI --> enter data --> hit save button --> Trigger before insert --> write all business logic  --> Store in  Database --> Call after insert\n    //If type == prospect --> I cannot change it to technilogy partner, if type != prospect i can change is to technology partner\n    //Map\n    \n    //Type -> prospect --> abc ?\n    //Type -> prospect --> bbc ?\n    //Type -> prospect --> Other ? \n    \n  /*   public static void handleBeforeInsert(List<Account> newAccounts){        \n        for(Account accRecord : newAccounts){\n            if(String.isBlank(accRecord.Industry)){\n                accRecord.Industry = 'Technology';\n            }\n        }         \n    }\n    \n    public static void handleBeforeUpdate(List<Account> newAccounts, List<Account> oldAccounts, Map<Id, Account> oldMap){        \n        \n        //In Before Update do we have id for all the records coming in to this method ? --> Yes\n        //What will newAccounts contain ? --> Contains Updated account records\n        //What will oldAccounts contain ? --> Contains old data before the user updated the record or contains the data present in the database\n        //What will oldMap contain ? --> all key value pairs,  ID and Account record pair \n        for(Account acc : newAccounts){\n            if(oldMap.get(acc.id).Type == 'Prospect' && acc.Type == 'Other'){\n                acc.addError('Prospect cannot be changed to Other');\n            }     \n        }\n        //Id temp = '001al000002FXtoAAG';\n        system.debug('Contents of Map : ' + oldMap.get('001al000002FXtoAAG'));\n        system.debug('Contents of Map Type : ' + oldMap.get('001al000002FXtoAAG').Type);\n        \n        */\n        \n        \n        /*for(Account accRecord : newAccounts){\n            if(accRecord.NumberOfEmployees == null){\n                accRecord.NumberOfEmployees = 5;\n            }\n            system.debug('Before update new accRecord : ' + accRecord);\n        }      \n        for(Account accRecord : oldAccounts){\n            system.debug('Before update old accRecord : ' + accRecord);\n        }      \n    } */\n    \n    //I will create a contact by default for every account\n /*   public static void handleAfterInsert(List<Account> newAccounts){        \n        for(Account accRecord : newAccounts){\n            system.debug('Insert accRecord : ' + accRecord);\n        }         \n    } \n    \n    public static void handleAfterUpdate(List<Account> newAccounts){        \n        for(Account accRecord : newAccounts){\n            system.debug('After update accRecord : ' + accRecord);\n        }         \n    } */\n    \n}",
+    "metadata": {
+      "apiVersion": "60.0",
+      "status": "Active"
+    },
+    "comprehensive_dependencies": {
+      "objects": [
+        "conList",
+        "Id",
+        "accRecord",
+        "Account",
+        "old",
+        "new",
+        "do",
+        "Contact",
+        "ID"
+      ],
+      "classes": [
+        "Contact",
+        "AnimalCallOutService"
+      ],
+      "fields": [
+        "NumberOfEmployees",
+        "Industry",
+        "Type"
+      ],
+      "methods": [
+        "AnimalCallOutService.getAnimalDetailsForAccount"
+      ],
+      "custom_settings": [],
+      "web_services": [],
+      "email_templates": [],
+      "custom_labels": [],
+      "static_resources": [],
+      "triggers": [],
+      "workflows": []
+    }
+  },
+  {
+    "id": "class_AccountHandlerTest",
+    "type": "ApexClass",
+    "name": "AccountHandlerTest",
+    "source_code": "@isTest\npublic class AccountHandlerTest {\n    \n    @isTest\n    public static void handleBeforeInsertBlankTest(){\n        Account acc = new Account(Name='Demo Account'); \n        insert acc;        \n        acc = [select Industry from Account where Id = :acc.Id];\n        System.assertEquals('Technology', acc.Industry); \n    }\n    \n    @isTest\n    public static void handleBeforeInsertNonBlankTest(){\n        Account acc = new Account(); \n        acc.Name = 'Test Account';\n        acc.Industry = 'Agriculture';\n        insert acc; \n        acc = [select Industry from Account where Id = :acc.Id];\n        System.assertEquals('Agriculture', acc.Industry);\n    }    \n}",
+    "metadata": {
+      "apiVersion": "60.0",
+      "status": "Active"
+    },
+    "comprehensive_dependencies": {
+      "objects": [
+        "acc",
+        "Account"
+      ],
+      "classes": [
+        "Account"
+      ],
+      "fields": [
+        "Industry",
+        "Account.Industry",
+        "Name"
+      ],
+      "methods": [],
+      "custom_settings": [],
+      "web_services": [],
+      "email_templates": [],
+      "custom_labels": [],
+      "static_resources": [],
+      "triggers": [],
+      "workflows": []
+    }
+  }
+]

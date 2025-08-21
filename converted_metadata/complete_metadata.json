@@ -1,0 +1,4350 @@
+{
+  "objects": [
+    {
+      "id": "object_Account",
+      "type": "CustomObject",
+      "name": "Account",
+      "metadata": {
+        "actionOverrides": [
+          {
+            "actionName": "CallHighlightAction",
+            "type": "Default"
+          },
+          {
+            "actionName": "CallHighlightAction",
+            "formFactor": "Large",
+            "type": "Default"
+          },
+          {
+            "actionName": "CallHighlightAction",
+            "formFactor": "Small",
+            "type": "Default"
+          },
+          {
+            "actionName": "CancelEdit",
+            "type": "Default"
+          },
+          {
+            "actionName": "CancelEdit",
+            "formFactor": "Large",
+            "type": "Default"
+          },
+          {
+            "actionName": "CancelEdit",
+            "formFactor": "Small",
+            "type": "Default"
+          },
+          {
+            "actionName": "Delete",
+            "type": "Default"
+          },
+          {
+            "actionName": "Delete",
+            "formFactor": "Large",
+            "type": "Default"
+          },
+          {
+            "actionName": "Delete",
+            "formFactor": "Small",
+            "type": "Default"
+          },
+          {
+            "actionName": "Edit",
+            "type": "Default"
+          },
+          {
+            "actionName": "Edit",
+            "formFactor": "Large",
+            "type": "Default"
+          },
+          {
+            "actionName": "Edit",
+            "formFactor": "Small",
+            "type": "Default"
+          },
+          {
+            "actionName": "EmailHighlightAction",
+            "type": "Default"
+          },
+          {
+            "actionName": "EmailHighlightAction",
+            "formFactor": "Large",
+            "type": "Default"
+          },
+          {
+            "actionName": "EmailHighlightAction",
+            "formFactor": "Small",
+            "type": "Default"
+          },
+          {
+            "actionName": "EnableCustomerPortalUser",
+            "type": "Default"
+          },
+          {
+            "actionName": "EnableCustomerPortalUser",
+            "formFactor": "Large",
+            "type": "Default"
+          },
+          {
+            "actionName": "EnableCustomerPortalUser",
+            "formFactor": "Small",
+            "type": "Default"
+          },
+          {
+            "actionName": "List",
+            "type": "Default"
+          },
+          {
+            "actionName": "List",
+            "formFactor": "Large",
+            "type": "Default"
+          },
+          {
+            "actionName": "List",
+            "formFactor": "Small",
+            "type": "Default"
+          },
+          {
+            "actionName": "ListClean",
+            "type": "Default"
+          },
+          {
+            "actionName": "ListClean",
+            "formFactor": "Large",
+            "type": "Default"
+          },
+          {
+            "actionName": "ListClean",
+            "formFactor": "Small",
+            "type": "Default"
+          },
+          {
+            "actionName": "New",
+            "type": "Default"
+          },
+          {
+            "actionName": "New",
+            "formFactor": "Large",
+            "type": "Default"
+          },
+          {
+            "actionName": "New",
+            "formFactor": "Small",
+            "type": "Default"
+          },
+          {
+            "actionName": "RequestUpdate",
+            "type": "Default"
+          },
+          {
+            "actionName": "RequestUpdate",
+            "formFactor": "Large",
+            "type": "Default"
+          },
+          {
+            "actionName": "RequestUpdate",
+            "formFactor": "Small",
+            "type": "Default"
+          },
+          {
+            "actionName": "ResumeBilling",
+            "type": "Default"
+          },
+          {
+            "actionName": "ResumeBilling",
+            "formFactor": "Large",
+            "type": "Default"
+          },
+          {
+            "actionName": "ResumeBilling",
+            "formFactor": "Small",
+            "type": "Default"
+          },
+          {
+            "actionName": "SaveEdit",
+            "type": "Default"
+          },
+          {
+            "actionName": "SaveEdit",
+            "formFactor": "Large",
+            "type": "Default"
+          },
+          {
+            "actionName": "SaveEdit",
+            "formFactor": "Small",
+            "type": "Default"
+          },
+          {
+            "actionName": "SmsHighlightAction",
+            "type": "Default"
+          },
+          {
+            "actionName": "SmsHighlightAction",
+            "formFactor": "Large",
+            "type": "Default"
+          },
+          {
+            "actionName": "SmsHighlightAction",
+            "formFactor": "Small",
+            "type": "Default"
+          },
+          {
+            "actionName": "SuspendBilling",
+            "type": "Default"
+          },
+          {
+            "actionName": "SuspendBilling",
+            "formFactor": "Large",
+            "type": "Default"
+          },
+          {
+            "actionName": "SuspendBilling",
+            "formFactor": "Small",
+            "type": "Default"
+          },
+          {
+            "actionName": "Tab",
+            "type": "Default"
+          },
+          {
+            "actionName": "Tab",
+            "formFactor": "Large",
+            "type": "Default"
+          },
+          {
+            "actionName": "Tab",
+            "formFactor": "Small",
+            "type": "Default"
+          },
+          {
+            "actionName": "View",
+            "comment": "Action override created by Lightning App Builder during activation.",
+            "content": "Account_Record_Page",
+            "formFactor": "Large",
+            "skipRecordTypeSelect": "false",
+            "type": "Flexipage"
+          },
+          {
+            "actionName": "View",
+            "comment": "Action override created by Lightning App Builder during activation.",
+            "content": "Account_Record_Page",
+            "formFactor": "Small",
+            "skipRecordTypeSelect": "false",
+            "type": "Flexipage"
+          },
+          {
+            "actionName": "View",
+            "type": "Default"
+          },
+          {
+            "actionName": "ViewCustomerPortalUser",
+            "type": "Default"
+          },
+          {
+            "actionName": "ViewCustomerPortalUser",
+            "formFactor": "Large",
+            "type": "Default"
+          },
+          {
+            "actionName": "ViewCustomerPortalUser",
+            "formFactor": "Small",
+            "type": "Default"
+          },
+          {
+            "actionName": "WebsiteHighlightAction",
+            "type": "Default"
+          },
+          {
+            "actionName": "WebsiteHighlightAction",
+            "formFactor": "Large",
+            "type": "Default"
+          },
+          {
+            "actionName": "WebsiteHighlightAction",
+            "formFactor": "Small",
+            "type": "Default"
+          }
+        ],
+        "compactLayoutAssignment": "SYSTEM",
+        "enableFeeds": "true",
+        "enableHistory": "false",
+        "externalSharingModel": "Private",
+        "searchLayouts": {
+          "customTabListAdditionalFields": [
+            "ACCOUNT.NAME",
+            "ACCOUNT.ADDRESS1_CITY",
+            "ACCOUNT.PHONE1"
+          ],
+          "lookupDialogsAdditionalFields": [
+            "ACCOUNT.NAME",
+            "ACCOUNT.SITE",
+            "CORE.USERS.ALIAS",
+            "ACCOUNT.TYPE"
+          ],
+          "lookupPhoneDialogsAdditionalFields": [
+            "ACCOUNT.NAME",
+            "ACCOUNT.SITE",
+            "CORE.USERS.ALIAS",
+            "ACCOUNT.TYPE",
+            "ACCOUNT.PHONE1",
+            "ACCOUNT.PHONE2"
+          ],
+          "searchResultsAdditionalFields": [
+            "ACCOUNT.NAME",
+            "ACCOUNT.SITE",
+            "ACCOUNT.PHONE1",
+            "CORE.USERS.ALIAS"
+          ]
+        },
+        "sharingModel": "ReadWrite"
+      },
+      "fields": [
+        {
+          "id": "field_Account_AccountNumber",
+          "type": "CustomField",
+          "name": "AccountNumber",
+          "object": "Account",
+          "metadata": {
+            "fullName": "AccountNumber",
+            "trackFeedHistory": "false"
+          }
+        },
+        {
+          "id": "field_Account_AccountSource",
+          "type": "CustomField",
+          "name": "AccountSource",
+          "object": "Account",
+          "metadata": {
+            "fullName": "AccountSource",
+            "trackFeedHistory": "false",
+            "type": "Picklist"
+          }
+        },
+        {
+          "id": "field_Account_Active__c",
+          "type": "CustomField",
+          "name": "Active__c",
+          "object": "Account",
+          "metadata": {
+            "fullName": "Active__c",
+            "label": "Active",
+            "required": "false",
+            "trackFeedHistory": "false",
+            "type": "Picklist",
+            "valueSet": {
+              "valueSetDefinition": {
+                "sorted": "false",
+                "value": [
+                  {
+                    "fullName": "No",
+                    "default": "false",
+                    "label": "No"
+                  },
+                  {
+                    "fullName": "Yes",
+                    "default": "false",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "id": "field_Account_AnnualRevenue",
+          "type": "CustomField",
+          "name": "AnnualRevenue",
+          "object": "Account",
+          "metadata": {
+            "fullName": "AnnualRevenue",
+            "trackFeedHistory": "false"
+          }
+        },
+        {
+          "id": "field_Account_BillingAddress",
+          "type": "CustomField",
+          "name": "BillingAddress",
+          "object": "Account",
+          "metadata": {
+            "fullName": "BillingAddress",
+            "trackFeedHistory": "false"
+          }
+        },
+        {
+          "id": "field_Account_CleanStatus",
+          "type": "CustomField",
+          "name": "CleanStatus",
+          "object": "Account",
+          "metadata": {
+            "fullName": "CleanStatus",
+            "trackFeedHistory": "false"
+          }
+        },
+        {
+          "id": "field_Account_CustomerPriority__c",
+          "type": "CustomField",
+          "name": "CustomerPriority__c",
+          "object": "Account",
+          "metadata": {
+            "fullName": "CustomerPriority__c",
+            "label": "Customer Priority",
+            "required": "false",
+            "trackFeedHistory": "false",
+            "type": "Picklist",
+            "valueSet": {
+              "valueSetDefinition": {
+                "sorted": "false",
+                "value": [
+                  {
+                    "fullName": "High",
+                    "default": "false",
+                    "label": "High"
+                  },
+                  {
+                    "fullName": "Low",
+                    "default": "false",
+                    "label": "Low"
+                  },
+                  {
+                    "fullName": "Medium",
+                    "default": "false",
+                    "label": "Medium"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "id": "field_Account_DandbCompanyId",
+          "type": "CustomField",
+          "name": "DandbCompanyId",
+          "object": "Account",
+          "metadata": {
+            "fullName": "DandbCompanyId",
+            "trackFeedHistory": "false",
+            "type": "Lookup"
+          }
+        },
+        {
+          "id": "field_Account_Description",
+          "type": "CustomField",
+          "name": "Description",
+          "object": "Account",
+          "metadata": {
+            "fullName": "Description",
+            "trackFeedHistory": "false"
+          }
+        },
+        {
+          "id": "field_Account_DunsNumber",
+          "type": "CustomField",
+          "name": "DunsNumber",
+          "object": "Account",
+          "metadata": {
+            "fullName": "DunsNumber",
+            "trackFeedHistory": "false"
+          }
+        },
+        {
+          "id": "field_Account_Fax",
+          "type": "CustomField",
+          "name": "Fax",
+          "object": "Account",
+          "metadata": {
+            "fullName": "Fax",
+            "trackFeedHistory": "false"
+          }
+        },
+        {
+          "id": "field_Account_Industry",
+          "type": "CustomField",
+          "name": "Industry",
+          "object": "Account",
+          "metadata": {
+            "fullName": "Industry",
+            "trackFeedHistory": "false",
+            "type": "Picklist"
+          }
+        },
+        {
+          "id": "field_Account_Jigsaw",
+          "type": "CustomField",
+          "name": "Jigsaw",
+          "object": "Account",
+          "metadata": {
+            "fullName": "Jigsaw",
+            "trackFeedHistory": "false"
+          }
+        },
+        {
+          "id": "field_Account_NaicsCode",
+          "type": "CustomField",
+          "name": "NaicsCode",
+          "object": "Account",
+          "metadata": {
+            "fullName": "NaicsCode",
+            "trackFeedHistory": "false"
+          }
+        },
+        {
+          "id": "field_Account_NaicsDesc",
+          "type": "CustomField",
+          "name": "NaicsDesc",
+          "object": "Account",
+          "metadata": {
+            "fullName": "NaicsDesc",
+            "trackFeedHistory": "false"
+          }
+        },
+        {
+          "id": "field_Account_Name",
+          "type": "CustomField",
+          "name": "Name",
+          "object": "Account",
+          "metadata": {
+            "fullName": "Name",
+            "trackFeedHistory": "true"
+          }
+        },
+        {
+          "id": "field_Account_NumberOfEmployees",
+          "type": "CustomField",
+          "name": "NumberOfEmployees",
+          "object": "Account",
+          "metadata": {
+            "fullName": "NumberOfEmployees",
+            "trackFeedHistory": "false"
+          }
+        },
+        {
+          "id": "field_Account_NumberofLocations__c",
+          "type": "CustomField",
+          "name": "NumberofLocations__c",
+          "object": "Account",
+          "metadata": {
+            "fullName": "NumberofLocations__c",
+            "externalId": "false",
+            "label": "Number of Locations",
+            "precision": "3",
+            "required": "false",
+            "scale": "0",
+            "trackFeedHistory": "false",
+            "type": "Number",
+            "unique": "false"
+          }
+        },
+        {
+          "id": "field_Account_OperatingHoursId",
+          "type": "CustomField",
+          "name": "OperatingHoursId",
+          "object": "Account",
+          "metadata": {
+            "fullName": "OperatingHoursId",
+            "trackFeedHistory": "false",
+            "type": "Lookup"
+          }
+        },
+        {
+          "id": "field_Account_OwnerId",
+          "type": "CustomField",
+          "name": "OwnerId",
+          "object": "Account",
+          "metadata": {
+            "fullName": "OwnerId",
+            "trackFeedHistory": "true",
+            "type": "Lookup"
+          }
+        },
+        {
+          "id": "field_Account_Ownership",
+          "type": "CustomField",
+          "name": "Ownership",
+          "object": "Account",
+          "metadata": {
+            "fullName": "Ownership",
+            "trackFeedHistory": "false",
+            "type": "Picklist"
+          }
+        },
+        {
+          "id": "field_Account_ParentId",
+          "type": "CustomField",
+          "name": "ParentId",
+          "object": "Account",
+          "metadata": {
+            "fullName": "ParentId",
+            "trackFeedHistory": "false",
+            "type": "Hierarchy"
+          }
+        },
+        {
+          "id": "field_Account_Phone",
+          "type": "CustomField",
+          "name": "Phone",
+          "object": "Account",
+          "metadata": {
+            "fullName": "Phone",
+            "trackFeedHistory": "false"
+          }
+        },
+        {
+          "id": "field_Account_Rating",
+          "type": "CustomField",
+          "name": "Rating",
+          "object": "Account",
+          "metadata": {
+            "fullName": "Rating",
+            "trackFeedHistory": "false",
+            "type": "Picklist"
+          }
+        },
+        {
+          "id": "field_Account_ShippingAddress",
+          "type": "CustomField",
+          "name": "ShippingAddress",
+          "object": "Account",
+          "metadata": {
+            "fullName": "ShippingAddress",
+            "trackFeedHistory": "false"
+          }
+        },
+        {
+          "id": "field_Account_Sic",
+          "type": "CustomField",
+          "name": "Sic",
+          "object": "Account",
+          "metadata": {
+            "fullName": "Sic",
+            "trackFeedHistory": "false"
+          }
+        },
+        {
+          "id": "field_Account_SicDesc",
+          "type": "CustomField",
+          "name": "SicDesc",
+          "object": "Account",
+          "metadata": {
+            "fullName": "SicDesc",
+            "trackFeedHistory": "false"
+          }
+        },
+        {
+          "id": "field_Account_Site",
+          "type": "CustomField",
+          "name": "Site",
+          "object": "Account",
+          "metadata": {
+            "fullName": "Site",
+            "trackFeedHistory": "false"
+          }
+        },
+        {
+          "id": "field_Account_SLAExpirationDate__c",
+          "type": "CustomField",
+          "name": "SLAExpirationDate__c",
+          "object": "Account",
+          "metadata": {
+            "fullName": "SLAExpirationDate__c",
+            "label": "SLA Expiration Date",
+            "required": "false",
+            "trackFeedHistory": "false",
+            "type": "Date"
+          }
+        },
+        {
+          "id": "field_Account_SLASerialNumber__c",
+          "type": "CustomField",
+          "name": "SLASerialNumber__c",
+          "object": "Account",
+          "metadata": {
+            "fullName": "SLASerialNumber__c",
+            "externalId": "false",
+            "label": "SLA Serial Number",
+            "length": "10",
+            "required": "false",
+            "trackFeedHistory": "false",
+            "type": "Text",
+            "unique": "false"
+          }
+        },
+        {
+          "id": "field_Account_SLA__c",
+          "type": "CustomField",
+          "name": "SLA__c",
+          "object": "Account",
+          "metadata": {
+            "fullName": "SLA__c",
+            "label": "SLA",
+            "required": "false",
+            "trackFeedHistory": "false",
+            "type": "Picklist",
+            "valueSet": {
+              "valueSetDefinition": {
+                "sorted": "false",
+                "value": [
+                  {
+                    "fullName": "Gold",
+                    "default": "false",
+                    "label": "Gold"
+                  },
+                  {
+                    "fullName": "Silver",
+                    "default": "false",
+                    "label": "Silver"
+                  },
+                  {
+                    "fullName": "Platinum",
+                    "default": "false",
+                    "label": "Platinum"
+                  },
+                  {
+                    "fullName": "Bronze",
+                    "default": "false",
+                    "label": "Bronze"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "id": "field_Account_TickerSymbol",
+          "type": "CustomField",
+          "name": "TickerSymbol",
+          "object": "Account",
+          "metadata": {
+            "fullName": "TickerSymbol",
+            "trackFeedHistory": "false"
+          }
+        },
+        {
+          "id": "field_Account_Tier",
+          "type": "CustomField",
+          "name": "Tier",
+          "object": "Account",
+          "metadata": {
+            "fullName": "Tier"
+          }
+        },
+        {
+          "id": "field_Account_Tradestyle",
+          "type": "CustomField",
+          "name": "Tradestyle",
+          "object": "Account",
+          "metadata": {
+            "fullName": "Tradestyle",
+            "trackFeedHistory": "false"
+          }
+        },
+        {
+          "id": "field_Account_Type",
+          "type": "CustomField",
+          "name": "Type",
+          "object": "Account",
+          "metadata": {
+            "fullName": "Type",
+            "trackFeedHistory": "false",
+            "type": "Picklist"
+          }
+        },
+        {
+          "id": "field_Account_UpsellOpportunity__c",
+          "type": "CustomField",
+          "name": "UpsellOpportunity__c",
+          "object": "Account",
+          "metadata": {
+            "fullName": "UpsellOpportunity__c",
+            "label": "Upsell Opportunity",
+            "required": "false",
+            "trackFeedHistory": "false",
+            "type": "Picklist",
+            "valueSet": {
+              "valueSetDefinition": {
+                "sorted": "false",
+                "value": [
+                  {
+                    "fullName": "Maybe",
+                    "default": "false",
+                    "label": "Maybe"
+                  },
+                  {
+                    "fullName": "No",
+                    "default": "false",
+                    "label": "No"
+                  },
+                  {
+                    "fullName": "Yes",
+                    "default": "false",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "id": "field_Account_Website",
+          "type": "CustomField",
+          "name": "Website",
+          "object": "Account",
+          "metadata": {
+            "fullName": "Website",
+            "trackFeedHistory": "false"
+          }
+        },
+        {
+          "id": "field_Account_YearStarted",
+          "type": "CustomField",
+          "name": "YearStarted",
+          "object": "Account",
+          "metadata": {
+            "fullName": "YearStarted",
+            "trackFeedHistory": "false"
+          }
+        }
+      ],
+      "listViews": [
+        {
+          "id": "listview_Account_AllAccounts",
+          "type": "ListView",
+          "name": "AllAccounts",
+          "object": "Account",
+          "metadata": {
+            "fullName": "AllAccounts",
+            "filterScope": "Everything",
+            "label": "All Accounts"
+          }
+        },
+        {
+          "id": "listview_Account_MyAccounts",
+          "type": "ListView",
+          "name": "MyAccounts",
+          "object": "Account",
+          "metadata": {
+            "fullName": "MyAccounts",
+            "filterScope": "Mine",
+            "label": "My Accounts"
+          }
+        },
+        {
+          "id": "listview_Account_NewLastWeek",
+          "type": "ListView",
+          "name": "NewLastWeek",
+          "object": "Account",
+          "metadata": {
+            "fullName": "NewLastWeek",
+            "filterScope": "Everything",
+            "filters": {
+              "field": "ACCOUNT.CREATED_DATE",
+              "operation": "equals",
+              "value": "LAST_WEEK"
+            },
+            "label": "New Last Week"
+          }
+        },
+        {
+          "id": "listview_Account_NewThisWeek",
+          "type": "ListView",
+          "name": "NewThisWeek",
+          "object": "Account",
+          "metadata": {
+            "fullName": "NewThisWeek",
+            "filterScope": "Everything",
+            "filters": {
+              "field": "ACCOUNT.CREATED_DATE",
+              "operation": "equals",
+              "value": "THIS_WEEK"
+            },
+            "label": "New This Week"
+          }
+        },
+        {
+          "id": "listview_Account_PlatinumandGoldSLACustomers",
+          "type": "ListView",
+          "name": "PlatinumandGoldSLACustomers",
+          "object": "Account",
+          "metadata": {
+            "fullName": "PlatinumandGoldSLACustomers",
+            "columns": [
+              "ACCOUNT.NAME",
+              "ACCOUNT.SITE",
+              "ACCOUNT.ADDRESS1_STATE",
+              "ACCOUNT.PHONE1",
+              "CORE.USERS.ALIAS"
+            ],
+            "filterScope": "Everything",
+            "label": "Platinum and Gold SLA Customers"
+          }
+        }
+      ],
+      "webLinks": [
+        {
+          "id": "weblink_Account_Billing",
+          "type": "WebLink",
+          "name": "Billing",
+          "object": "Account",
+          "metadata": {
+            "fullName": "Billing",
+            "availability": "online",
+            "displayType": "link",
+            "encodingKey": "UTF-8",
+            "hasMenubar": "true",
+            "hasScrollbars": "true",
+            "hasToolbar": "true",
+            "height": "600",
+            "isResizable": "true",
+            "linkType": "url",
+            "masterLabel": "Billing",
+            "openType": "newWindow",
+            "position": "none",
+            "protected": "false",
+            "showsLocation": "true",
+            "showsStatus": "true",
+            "url": "http://www.genwatt.com/genwatt/billing.htm?actname={!Account_Name}"
+          }
+        }
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "id": "layout_Account-Account_Marketing_Layout",
+      "type": "Layout",
+      "name": "Account-Account %28Marketing%29 Layout",
+      "object": "Account",
+      "metadata": {
+        "excludeButtons": "Submit",
+        "layoutSections": [
+          {
+            "customLabel": "false",
+            "detailHeading": "false",
+            "editHeading": "true",
+            "label": "Account Information",
+            "layoutColumns": [
+              {
+                "layoutItems": [
+                  {
+                    "behavior": "Edit",
+                    "field": "OwnerId"
+                  },
+                  {
+                    "behavior": "Required",
+                    "field": "Name"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "ParentId"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "AccountNumber"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Site"
+                  }
+                ]
+              },
+              {
+                "layoutItems": [
+                  {
+                    "behavior": "Edit",
+                    "field": "Rating"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Phone"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Fax"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Website"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "TickerSymbol"
+                  }
+                ]
+              }
+            ],
+            "style": "TwoColumnsTopToBottom"
+          },
+          {
+            "customLabel": "false",
+            "detailHeading": "false",
+            "editHeading": "true",
+            "label": "Address Information",
+            "layoutColumns": [
+              {
+                "layoutItems": {
+                  "behavior": "Edit",
+                  "field": "BillingAddress"
+                }
+              },
+              {
+                "layoutItems": {
+                  "behavior": "Edit",
+                  "field": "ShippingAddress"
+                }
+              }
+            ],
+            "style": "TwoColumnsTopToBottom"
+          },
+          {
+            "customLabel": "false",
+            "detailHeading": "false",
+            "editHeading": "true",
+            "label": "Additional Information",
+            "layoutColumns": [
+              {
+                "layoutItems": [
+                  {
+                    "behavior": "Edit",
+                    "field": "Active__c"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "CustomerPriority__c"
+                  },
+                  {
+                    "behavior": "Required",
+                    "field": "SLA__c"
+                  },
+                  {
+                    "behavior": "Required",
+                    "field": "SLASerialNumber__c"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Industry"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "AnnualRevenue"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Ownership"
+                  }
+                ]
+              },
+              {
+                "layoutItems": [
+                  {
+                    "behavior": "Edit",
+                    "field": "UpsellOpportunity__c"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "NumberofLocations__c"
+                  },
+                  {
+                    "behavior": "Required",
+                    "field": "SLAExpirationDate__c"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Type"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Sic"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "NumberOfEmployees"
+                  }
+                ]
+              }
+            ],
+            "style": "TwoColumnsLeftToRight"
+          },
+          {
+            "customLabel": "false",
+            "detailHeading": "false",
+            "editHeading": "true",
+            "label": "System Information",
+            "layoutColumns": [
+              {
+                "layoutItems": {
+                  "behavior": "Readonly",
+                  "field": "CreatedById"
+                }
+              },
+              {
+                "layoutItems": {
+                  "behavior": "Readonly",
+                  "field": "LastModifiedById"
+                }
+              }
+            ],
+            "style": "TwoColumnsTopToBottom"
+          },
+          {
+            "customLabel": "false",
+            "detailHeading": "false",
+            "editHeading": "true",
+            "label": "Description Information",
+            "layoutColumns": {
+              "layoutItems": {
+                "behavior": "Edit",
+                "field": "Description"
+              }
+            },
+            "style": "OneColumn"
+          },
+          {
+            "customLabel": "false",
+            "detailHeading": "false",
+            "editHeading": "false",
+            "label": "Custom Links",
+            "layoutColumns": [
+              {
+                "layoutItems": {
+                  "customLink": "Billing"
+                }
+              },
+              null,
+              null
+            ],
+            "style": "CustomLinks"
+          }
+        ],
+        "platformActionList": {
+          "actionListContext": "Record",
+          "platformActionListItems": [
+            {
+              "actionName": "FeedItem.TextPost",
+              "actionType": "QuickAction",
+              "sortOrder": "0"
+            },
+            {
+              "actionName": "FeedItem.ContentPost",
+              "actionType": "QuickAction",
+              "sortOrder": "1"
+            },
+            {
+              "actionName": "NewTask",
+              "actionType": "QuickAction",
+              "sortOrder": "2"
+            },
+            {
+              "actionName": "NewContact",
+              "actionType": "QuickAction",
+              "sortOrder": "3"
+            },
+            {
+              "actionName": "NewCase",
+              "actionType": "QuickAction",
+              "sortOrder": "4"
+            },
+            {
+              "actionName": "LogACall",
+              "actionType": "QuickAction",
+              "sortOrder": "5"
+            },
+            {
+              "actionName": "NewNote",
+              "actionType": "QuickAction",
+              "sortOrder": "6"
+            },
+            {
+              "actionName": "NewOpportunity",
+              "actionType": "QuickAction",
+              "sortOrder": "7"
+            },
+            {
+              "actionName": "NewEvent",
+              "actionType": "QuickAction",
+              "sortOrder": "8"
+            },
+            {
+              "actionName": "FeedItem.LinkPost",
+              "actionType": "QuickAction",
+              "sortOrder": "9"
+            },
+            {
+              "actionName": "FeedItem.PollPost",
+              "actionType": "QuickAction",
+              "sortOrder": "10"
+            },
+            {
+              "actionName": "FeedItem.QuestionPost",
+              "actionType": "QuickAction",
+              "sortOrder": "11"
+            },
+            {
+              "actionName": "SendEmail",
+              "actionType": "QuickAction",
+              "sortOrder": "12"
+            },
+            {
+              "actionName": "IncludeOffline",
+              "actionType": "StandardButton",
+              "sortOrder": "13"
+            },
+            {
+              "actionName": "Edit",
+              "actionType": "StandardButton",
+              "sortOrder": "14"
+            },
+            {
+              "actionName": "ChangeOwnerOne",
+              "actionType": "StandardButton",
+              "sortOrder": "15"
+            },
+            {
+              "actionName": "AccountHierarchy",
+              "actionType": "StandardButton",
+              "sortOrder": "16"
+            },
+            {
+              "actionName": "Submit",
+              "actionType": "StandardButton",
+              "sortOrder": "17"
+            },
+            {
+              "actionName": "SendEmail",
+              "actionType": "StandardButton",
+              "sortOrder": "18"
+            },
+            {
+              "actionName": "JigsawSearch",
+              "actionType": "StandardButton",
+              "sortOrder": "19"
+            },
+            {
+              "actionName": "ChangeRecordType",
+              "actionType": "StandardButton",
+              "sortOrder": "20"
+            },
+            {
+              "actionName": "XClean",
+              "actionType": "StandardButton",
+              "sortOrder": "21"
+            },
+            {
+              "actionName": "Delete",
+              "actionType": "StandardButton",
+              "sortOrder": "22"
+            },
+            {
+              "actionName": "Share",
+              "actionType": "StandardButton",
+              "sortOrder": "23"
+            },
+            {
+              "actionName": "CallHighlightAction",
+              "actionType": "ProductivityAction",
+              "sortOrder": "24"
+            },
+            {
+              "actionName": "SmsHighlightAction",
+              "actionType": "ProductivityAction",
+              "sortOrder": "25"
+            },
+            {
+              "actionName": "EmailHighlightAction",
+              "actionType": "ProductivityAction",
+              "sortOrder": "26"
+            },
+            {
+              "actionName": "WebsiteHighlightAction",
+              "actionType": "ProductivityAction",
+              "sortOrder": "27"
+            }
+          ]
+        },
+        "quickActionList": {
+          "quickActionListItems": [
+            {
+              "quickActionName": "FeedItem.TextPost"
+            },
+            {
+              "quickActionName": "FeedItem.ContentPost"
+            },
+            {
+              "quickActionName": "NewTask"
+            },
+            {
+              "quickActionName": "NewContact"
+            },
+            {
+              "quickActionName": "NewCase"
+            },
+            {
+              "quickActionName": "LogACall"
+            },
+            {
+              "quickActionName": "NewNote"
+            },
+            {
+              "quickActionName": "NewOpportunity"
+            },
+            {
+              "quickActionName": "NewEvent"
+            },
+            {
+              "quickActionName": "FeedItem.LinkPost"
+            },
+            {
+              "quickActionName": "FeedItem.PollPost"
+            },
+            {
+              "quickActionName": "FeedItem.QuestionPost"
+            },
+            {
+              "quickActionName": "SendEmail"
+            }
+          ]
+        },
+        "relatedLists": [
+          {
+            "fields": [
+              "FULL_NAME",
+              "CONTACT.TITLE",
+              "CONTACT.EMAIL",
+              "CONTACT.PHONE1"
+            ],
+            "relatedList": "RelatedContactList"
+          },
+          {
+            "fields": [
+              "TASK.SUBJECT",
+              "TASK.WHO_NAME",
+              "TASK.WHAT_NAME",
+              "ACTIVITY.TASK",
+              "TASK.DUE_DATE",
+              "TASK.STATUS",
+              "TASK.PRIORITY",
+              "CORE.USERS.FULL_NAME"
+            ],
+            "relatedList": "RelatedActivityList"
+          },
+          {
+            "fields": [
+              "TASK.SUBJECT",
+              "TASK.WHO_NAME",
+              "TASK.WHAT_NAME",
+              "ACTIVITY.TASK",
+              "TASK.DUE_DATE",
+              "CORE.USERS.FULL_NAME",
+              "TASK.LAST_UPDATE"
+            ],
+            "relatedList": "RelatedHistoryList"
+          },
+          {
+            "fields": [
+              "OPPORTUNITY.NAME",
+              "OPPORTUNITY.STAGE_NAME",
+              "OPPORTUNITY.AMOUNT",
+              "OPPORTUNITY.CLOSE_DATE"
+            ],
+            "relatedList": "RelatedOpportunityList"
+          },
+          {
+            "fields": [
+              "CASES.CASE_NUMBER",
+              "NAME",
+              "CASES.SUBJECT",
+              "CASES.PRIORITY",
+              "CASES.CREATED_DATE_DATE_ONLY",
+              "CASES.STATUS",
+              "OWNER_NAME"
+            ],
+            "relatedList": "RelatedCaseList"
+          },
+          {
+            "relatedList": "RelatedNoteList"
+          },
+          {
+            "fields": [
+              "ACCOUNT.NAME",
+              "OPPORTUNITY.NAME",
+              "PARTNER.ROLE"
+            ],
+            "relatedList": "RelatedPartnerList"
+          }
+        ],
+        "relatedObjects": "ParentId",
+        "showEmailCheckbox": "false",
+        "showHighlightsPanel": "false",
+        "showInteractionLogPanel": "false",
+        "showRunAssignmentRulesCheckbox": "false",
+        "showSubmitAndAttachButton": "false",
+        "summaryLayout": {
+          "masterLabel": "00h1a0000012AHD",
+          "sizeX": "4",
+          "sizeY": "0",
+          "summaryLayoutStyle": "Default"
+        }
+      },
+      "fields_on_layout": [
+        "TickerSymbol",
+        "ParentId",
+        "BillingAddress",
+        "Type",
+        "AnnualRevenue",
+        "SLA__c",
+        "Active__c",
+        "OwnerId",
+        "NumberofLocations__c",
+        "Ownership",
+        "SLASerialNumber__c",
+        "CustomerPriority__c",
+        "Fax",
+        "Name",
+        "LastModifiedById",
+        "SLAExpirationDate__c",
+        "Description",
+        "Website",
+        "NumberOfEmployees",
+        "Site",
+        "Industry",
+        "Rating",
+        "CreatedById",
+        "Sic",
+        "ShippingAddress",
+        "AccountNumber",
+        "UpsellOpportunity__c",
+        "Phone"
+      ],
+      "sections": [],
+      "related_lists": []
+    },
+    {
+      "id": "layout_Account-Account_Sales_Layout",
+      "type": "Layout",
+      "name": "Account-Account %28Sales%29 Layout",
+      "object": "Account",
+      "metadata": {
+        "excludeButtons": "Submit",
+        "layoutSections": [
+          {
+            "customLabel": "false",
+            "detailHeading": "false",
+            "editHeading": "true",
+            "label": "Account Information",
+            "layoutColumns": [
+              {
+                "layoutItems": [
+                  {
+                    "behavior": "Edit",
+                    "field": "OwnerId"
+                  },
+                  {
+                    "behavior": "Required",
+                    "field": "Name"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "ParentId"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "AccountNumber"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Site"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Industry"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Sic"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "AnnualRevenue"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "NumberOfEmployees"
+                  }
+                ]
+              },
+              {
+                "layoutItems": [
+                  {
+                    "behavior": "Required",
+                    "field": "Active__c"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "UpsellOpportunity__c"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Type"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Rating"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Phone"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Fax"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Website"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "TickerSymbol"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Ownership"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "NumberofLocations__c"
+                  }
+                ]
+              }
+            ],
+            "style": "TwoColumnsTopToBottom"
+          },
+          {
+            "customLabel": "false",
+            "detailHeading": "false",
+            "editHeading": "true",
+            "label": "Address Information",
+            "layoutColumns": [
+              {
+                "layoutItems": {
+                  "behavior": "Edit",
+                  "field": "BillingAddress"
+                }
+              },
+              {
+                "layoutItems": {
+                  "behavior": "Edit",
+                  "field": "ShippingAddress"
+                }
+              }
+            ],
+            "style": "TwoColumnsTopToBottom"
+          },
+          {
+            "customLabel": "false",
+            "detailHeading": "false",
+            "editHeading": "true",
+            "label": "Additional Information",
+            "layoutColumns": [
+              {
+                "layoutItems": [
+                  {
+                    "behavior": "Edit",
+                    "field": "CustomerPriority__c"
+                  },
+                  {
+                    "behavior": "Required",
+                    "field": "SLAExpirationDate__c"
+                  }
+                ]
+              },
+              {
+                "layoutItems": [
+                  {
+                    "behavior": "Required",
+                    "field": "SLA__c"
+                  },
+                  {
+                    "behavior": "Required",
+                    "field": "SLASerialNumber__c"
+                  }
+                ]
+              }
+            ],
+            "style": "TwoColumnsLeftToRight"
+          },
+          {
+            "customLabel": "false",
+            "detailHeading": "false",
+            "editHeading": "true",
+            "label": "System Information",
+            "layoutColumns": [
+              {
+                "layoutItems": {
+                  "behavior": "Readonly",
+                  "field": "CreatedById"
+                }
+              },
+              {
+                "layoutItems": {
+                  "behavior": "Readonly",
+                  "field": "LastModifiedById"
+                }
+              }
+            ],
+            "style": "TwoColumnsTopToBottom"
+          },
+          {
+            "customLabel": "false",
+            "detailHeading": "false",
+            "editHeading": "true",
+            "label": "Description Information",
+            "layoutColumns": {
+              "layoutItems": {
+                "behavior": "Edit",
+                "field": "Description"
+              }
+            },
+            "style": "OneColumn"
+          },
+          {
+            "customLabel": "false",
+            "detailHeading": "false",
+            "editHeading": "false",
+            "label": "Custom Links",
+            "layoutColumns": [
+              {
+                "layoutItems": {
+                  "customLink": "Billing"
+                }
+              },
+              null,
+              null
+            ],
+            "style": "CustomLinks"
+          }
+        ],
+        "platformActionList": {
+          "actionListContext": "Record",
+          "platformActionListItems": [
+            {
+              "actionName": "NewContact",
+              "actionType": "QuickAction",
+              "sortOrder": "3"
+            },
+            {
+              "actionName": "FeedItem.TextPost",
+              "actionType": "QuickAction",
+              "sortOrder": "0"
+            },
+            {
+              "actionName": "FeedItem.ContentPost",
+              "actionType": "QuickAction",
+              "sortOrder": "1"
+            },
+            {
+              "actionName": "NewTask",
+              "actionType": "QuickAction",
+              "sortOrder": "2"
+            },
+            {
+              "actionName": "NewCase",
+              "actionType": "QuickAction",
+              "sortOrder": "4"
+            },
+            {
+              "actionName": "LogACall",
+              "actionType": "QuickAction",
+              "sortOrder": "5"
+            },
+            {
+              "actionName": "NewNote",
+              "actionType": "QuickAction",
+              "sortOrder": "6"
+            },
+            {
+              "actionName": "NewOpportunity",
+              "actionType": "QuickAction",
+              "sortOrder": "7"
+            },
+            {
+              "actionName": "NewEvent",
+              "actionType": "QuickAction",
+              "sortOrder": "8"
+            },
+            {
+              "actionName": "FeedItem.LinkPost",
+              "actionType": "QuickAction",
+              "sortOrder": "9"
+            },
+            {
+              "actionName": "FeedItem.PollPost",
+              "actionType": "QuickAction",
+              "sortOrder": "10"
+            },
+            {
+              "actionName": "FeedItem.QuestionPost",
+              "actionType": "QuickAction",
+              "sortOrder": "11"
+            },
+            {
+              "actionName": "SendEmail",
+              "actionType": "QuickAction",
+              "sortOrder": "12"
+            },
+            {
+              "actionName": "IncludeOffline",
+              "actionType": "StandardButton",
+              "sortOrder": "13"
+            },
+            {
+              "actionName": "Edit",
+              "actionType": "StandardButton",
+              "sortOrder": "14"
+            },
+            {
+              "actionName": "Submit",
+              "actionType": "StandardButton",
+              "sortOrder": "15"
+            },
+            {
+              "actionName": "SendEmail",
+              "actionType": "StandardButton",
+              "sortOrder": "16"
+            },
+            {
+              "actionName": "Share",
+              "actionType": "StandardButton",
+              "sortOrder": "17"
+            },
+            {
+              "actionName": "ChangeRecordType",
+              "actionType": "StandardButton",
+              "sortOrder": "18"
+            },
+            {
+              "actionName": "ChangeOwnerOne",
+              "actionType": "StandardButton",
+              "sortOrder": "19"
+            },
+            {
+              "actionName": "XClean",
+              "actionType": "StandardButton",
+              "sortOrder": "20"
+            },
+            {
+              "actionName": "AccountHierarchy",
+              "actionType": "StandardButton",
+              "sortOrder": "21"
+            },
+            {
+              "actionName": "JigsawSearch",
+              "actionType": "StandardButton",
+              "sortOrder": "22"
+            },
+            {
+              "actionName": "Delete",
+              "actionType": "StandardButton",
+              "sortOrder": "23"
+            },
+            {
+              "actionName": "CallHighlightAction",
+              "actionType": "ProductivityAction",
+              "sortOrder": "24"
+            },
+            {
+              "actionName": "SmsHighlightAction",
+              "actionType": "ProductivityAction",
+              "sortOrder": "25"
+            },
+            {
+              "actionName": "EmailHighlightAction",
+              "actionType": "ProductivityAction",
+              "sortOrder": "26"
+            },
+            {
+              "actionName": "WebsiteHighlightAction",
+              "actionType": "ProductivityAction",
+              "sortOrder": "27"
+            }
+          ]
+        },
+        "quickActionList": {
+          "quickActionListItems": [
+            {
+              "quickActionName": "FeedItem.TextPost"
+            },
+            {
+              "quickActionName": "FeedItem.ContentPost"
+            },
+            {
+              "quickActionName": "NewTask"
+            },
+            {
+              "quickActionName": "NewContact"
+            },
+            {
+              "quickActionName": "NewCase"
+            },
+            {
+              "quickActionName": "LogACall"
+            },
+            {
+              "quickActionName": "NewNote"
+            },
+            {
+              "quickActionName": "NewOpportunity"
+            },
+            {
+              "quickActionName": "NewEvent"
+            },
+            {
+              "quickActionName": "FeedItem.LinkPost"
+            },
+            {
+              "quickActionName": "FeedItem.PollPost"
+            },
+            {
+              "quickActionName": "FeedItem.QuestionPost"
+            },
+            {
+              "quickActionName": "SendEmail"
+            }
+          ]
+        },
+        "relatedLists": [
+          {
+            "fields": [
+              "FULL_NAME",
+              "CONTACT.TITLE",
+              "CONTACT.EMAIL",
+              "CONTACT.PHONE1"
+            ],
+            "relatedList": "RelatedContactList"
+          },
+          {
+            "fields": [
+              "OPPORTUNITY.NAME",
+              "OPPORTUNITY.STAGE_NAME",
+              "OPPORTUNITY.AMOUNT",
+              "OPPORTUNITY.CLOSE_DATE"
+            ],
+            "relatedList": "RelatedOpportunityList"
+          },
+          {
+            "fields": [
+              "CASES.CASE_NUMBER",
+              "NAME",
+              "CASES.SUBJECT",
+              "CASES.PRIORITY",
+              "CASES.CREATED_DATE_DATE_ONLY",
+              "CASES.STATUS",
+              "OWNER_NAME"
+            ],
+            "relatedList": "RelatedCaseList"
+          },
+          {
+            "fields": [
+              "TASK.SUBJECT",
+              "TASK.WHO_NAME",
+              "TASK.WHAT_NAME",
+              "ACTIVITY.TASK",
+              "TASK.DUE_DATE",
+              "TASK.STATUS",
+              "TASK.PRIORITY",
+              "CORE.USERS.FULL_NAME"
+            ],
+            "relatedList": "RelatedActivityList"
+          },
+          {
+            "fields": [
+              "TASK.SUBJECT",
+              "TASK.WHO_NAME",
+              "TASK.WHAT_NAME",
+              "ACTIVITY.TASK",
+              "TASK.DUE_DATE",
+              "CORE.USERS.FULL_NAME",
+              "TASK.LAST_UPDATE"
+            ],
+            "relatedList": "RelatedHistoryList"
+          },
+          {
+            "relatedList": "RelatedNoteList"
+          },
+          {
+            "fields": [
+              "ACCOUNT.NAME",
+              "OPPORTUNITY.NAME",
+              "PARTNER.ROLE"
+            ],
+            "relatedList": "RelatedPartnerList"
+          }
+        ],
+        "relatedObjects": "ParentId",
+        "showEmailCheckbox": "false",
+        "showHighlightsPanel": "false",
+        "showInteractionLogPanel": "false",
+        "showRunAssignmentRulesCheckbox": "false",
+        "showSubmitAndAttachButton": "false",
+        "summaryLayout": {
+          "masterLabel": "00h1a0000012AH8",
+          "sizeX": "4",
+          "sizeY": "0",
+          "summaryLayoutStyle": "Default"
+        }
+      },
+      "fields_on_layout": [
+        "TickerSymbol",
+        "ParentId",
+        "BillingAddress",
+        "Type",
+        "AnnualRevenue",
+        "SLA__c",
+        "Active__c",
+        "OwnerId",
+        "NumberofLocations__c",
+        "Ownership",
+        "SLASerialNumber__c",
+        "CustomerPriority__c",
+        "Fax",
+        "Name",
+        "LastModifiedById",
+        "SLAExpirationDate__c",
+        "Description",
+        "Website",
+        "NumberOfEmployees",
+        "Site",
+        "Industry",
+        "Rating",
+        "CreatedById",
+        "Sic",
+        "ShippingAddress",
+        "AccountNumber",
+        "UpsellOpportunity__c",
+        "Phone"
+      ],
+      "sections": [],
+      "related_lists": []
+    },
+    {
+      "id": "layout_Account-Account_Support_Layout",
+      "type": "Layout",
+      "name": "Account-Account %28Support%29 Layout",
+      "object": "Account",
+      "metadata": {
+        "excludeButtons": "Submit",
+        "layoutSections": [
+          {
+            "customLabel": "false",
+            "detailHeading": "false",
+            "editHeading": "true",
+            "label": "Account Information",
+            "layoutColumns": [
+              {
+                "layoutItems": [
+                  {
+                    "behavior": "Edit",
+                    "field": "OwnerId"
+                  },
+                  {
+                    "behavior": "Required",
+                    "field": "Name"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "ParentId"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "AccountNumber"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Site"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Phone"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Fax"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Website"
+                  }
+                ]
+              },
+              {
+                "layoutItems": [
+                  {
+                    "behavior": "Edit",
+                    "field": "Active__c"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "CustomerPriority__c"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "SLA__c"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "SLAExpirationDate__c"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "SLASerialNumber__c"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Rating"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "UpsellOpportunity__c"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "NumberofLocations__c"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Type"
+                  }
+                ]
+              }
+            ],
+            "style": "TwoColumnsTopToBottom"
+          },
+          {
+            "customLabel": "false",
+            "detailHeading": "false",
+            "editHeading": "true",
+            "label": "Address Information",
+            "layoutColumns": [
+              {
+                "layoutItems": {
+                  "behavior": "Edit",
+                  "field": "BillingAddress"
+                }
+              },
+              {
+                "layoutItems": {
+                  "behavior": "Edit",
+                  "field": "ShippingAddress"
+                }
+              }
+            ],
+            "style": "TwoColumnsTopToBottom"
+          },
+          {
+            "customLabel": "false",
+            "detailHeading": "false",
+            "editHeading": "true",
+            "label": "Additional Information",
+            "layoutColumns": [
+              {
+                "layoutItems": [
+                  {
+                    "behavior": "Edit",
+                    "field": "Industry"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "TickerSymbol"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "NumberOfEmployees"
+                  }
+                ]
+              },
+              {
+                "layoutItems": [
+                  {
+                    "behavior": "Edit",
+                    "field": "AnnualRevenue"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Ownership"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Sic"
+                  }
+                ]
+              }
+            ],
+            "style": "TwoColumnsLeftToRight"
+          },
+          {
+            "customLabel": "false",
+            "detailHeading": "false",
+            "editHeading": "true",
+            "label": "System Information",
+            "layoutColumns": [
+              {
+                "layoutItems": {
+                  "behavior": "Readonly",
+                  "field": "CreatedById"
+                }
+              },
+              {
+                "layoutItems": {
+                  "behavior": "Readonly",
+                  "field": "LastModifiedById"
+                }
+              }
+            ],
+            "style": "TwoColumnsTopToBottom"
+          },
+          {
+            "customLabel": "false",
+            "detailHeading": "false",
+            "editHeading": "true",
+            "label": "Description Information",
+            "layoutColumns": {
+              "layoutItems": {
+                "behavior": "Edit",
+                "field": "Description"
+              }
+            },
+            "style": "OneColumn"
+          },
+          {
+            "customLabel": "false",
+            "detailHeading": "false",
+            "editHeading": "false",
+            "label": "Custom Links",
+            "layoutColumns": [
+              {
+                "layoutItems": {
+                  "customLink": "Billing"
+                }
+              },
+              null,
+              null
+            ],
+            "style": "CustomLinks"
+          }
+        ],
+        "platformActionList": {
+          "actionListContext": "Record",
+          "platformActionListItems": [
+            {
+              "actionName": "FeedItem.TextPost",
+              "actionType": "QuickAction",
+              "sortOrder": "0"
+            },
+            {
+              "actionName": "FeedItem.ContentPost",
+              "actionType": "QuickAction",
+              "sortOrder": "1"
+            },
+            {
+              "actionName": "NewTask",
+              "actionType": "QuickAction",
+              "sortOrder": "2"
+            },
+            {
+              "actionName": "NewContact",
+              "actionType": "QuickAction",
+              "sortOrder": "3"
+            },
+            {
+              "actionName": "NewCase",
+              "actionType": "QuickAction",
+              "sortOrder": "4"
+            },
+            {
+              "actionName": "LogACall",
+              "actionType": "QuickAction",
+              "sortOrder": "5"
+            },
+            {
+              "actionName": "NewNote",
+              "actionType": "QuickAction",
+              "sortOrder": "6"
+            },
+            {
+              "actionName": "NewOpportunity",
+              "actionType": "QuickAction",
+              "sortOrder": "7"
+            },
+            {
+              "actionName": "NewEvent",
+              "actionType": "QuickAction",
+              "sortOrder": "8"
+            },
+            {
+              "actionName": "FeedItem.LinkPost",
+              "actionType": "QuickAction",
+              "sortOrder": "9"
+            },
+            {
+              "actionName": "FeedItem.PollPost",
+              "actionType": "QuickAction",
+              "sortOrder": "10"
+            },
+            {
+              "actionName": "FeedItem.QuestionPost",
+              "actionType": "QuickAction",
+              "sortOrder": "11"
+            },
+            {
+              "actionName": "AccountHierarchy",
+              "actionType": "StandardButton",
+              "sortOrder": "15"
+            },
+            {
+              "actionName": "SendEmail",
+              "actionType": "QuickAction",
+              "sortOrder": "12"
+            },
+            {
+              "actionName": "JigsawSearch",
+              "actionType": "StandardButton",
+              "sortOrder": "13"
+            },
+            {
+              "actionName": "Submit",
+              "actionType": "StandardButton",
+              "sortOrder": "14"
+            },
+            {
+              "actionName": "IncludeOffline",
+              "actionType": "StandardButton",
+              "sortOrder": "16"
+            },
+            {
+              "actionName": "Delete",
+              "actionType": "StandardButton",
+              "sortOrder": "17"
+            },
+            {
+              "actionName": "Edit",
+              "actionType": "StandardButton",
+              "sortOrder": "18"
+            },
+            {
+              "actionName": "XClean",
+              "actionType": "StandardButton",
+              "sortOrder": "19"
+            },
+            {
+              "actionName": "Share",
+              "actionType": "StandardButton",
+              "sortOrder": "20"
+            },
+            {
+              "actionName": "SendEmail",
+              "actionType": "StandardButton",
+              "sortOrder": "21"
+            },
+            {
+              "actionName": "ChangeOwnerOne",
+              "actionType": "StandardButton",
+              "sortOrder": "22"
+            },
+            {
+              "actionName": "ChangeRecordType",
+              "actionType": "StandardButton",
+              "sortOrder": "23"
+            },
+            {
+              "actionName": "CallHighlightAction",
+              "actionType": "ProductivityAction",
+              "sortOrder": "24"
+            },
+            {
+              "actionName": "SmsHighlightAction",
+              "actionType": "ProductivityAction",
+              "sortOrder": "25"
+            },
+            {
+              "actionName": "EmailHighlightAction",
+              "actionType": "ProductivityAction",
+              "sortOrder": "26"
+            },
+            {
+              "actionName": "WebsiteHighlightAction",
+              "actionType": "ProductivityAction",
+              "sortOrder": "27"
+            }
+          ]
+        },
+        "quickActionList": {
+          "quickActionListItems": [
+            {
+              "quickActionName": "FeedItem.TextPost"
+            },
+            {
+              "quickActionName": "FeedItem.ContentPost"
+            },
+            {
+              "quickActionName": "NewTask"
+            },
+            {
+              "quickActionName": "NewContact"
+            },
+            {
+              "quickActionName": "NewCase"
+            },
+            {
+              "quickActionName": "LogACall"
+            },
+            {
+              "quickActionName": "NewNote"
+            },
+            {
+              "quickActionName": "NewOpportunity"
+            },
+            {
+              "quickActionName": "NewEvent"
+            },
+            {
+              "quickActionName": "FeedItem.LinkPost"
+            },
+            {
+              "quickActionName": "FeedItem.PollPost"
+            },
+            {
+              "quickActionName": "FeedItem.QuestionPost"
+            },
+            {
+              "quickActionName": "SendEmail"
+            }
+          ]
+        },
+        "relatedLists": [
+          {
+            "fields": [
+              "FULL_NAME",
+              "CONTACT.TITLE",
+              "CONTACT.EMAIL",
+              "CONTACT.PHONE1"
+            ],
+            "relatedList": "RelatedContactList"
+          },
+          {
+            "fields": [
+              "CASES.CASE_NUMBER",
+              "NAME",
+              "CASES.SUBJECT",
+              "CASES.PRIORITY",
+              "CASES.CREATED_DATE_DATE_ONLY",
+              "CASES.STATUS",
+              "OWNER_NAME"
+            ],
+            "relatedList": "RelatedCaseList"
+          },
+          {
+            "fields": [
+              "TASK.SUBJECT",
+              "TASK.WHO_NAME",
+              "TASK.WHAT_NAME",
+              "ACTIVITY.TASK",
+              "TASK.DUE_DATE",
+              "TASK.STATUS",
+              "TASK.PRIORITY",
+              "CORE.USERS.FULL_NAME"
+            ],
+            "relatedList": "RelatedActivityList"
+          },
+          {
+            "fields": [
+              "TASK.SUBJECT",
+              "TASK.WHO_NAME",
+              "TASK.WHAT_NAME",
+              "ACTIVITY.TASK",
+              "TASK.DUE_DATE",
+              "CORE.USERS.FULL_NAME",
+              "TASK.LAST_UPDATE"
+            ],
+            "relatedList": "RelatedHistoryList"
+          },
+          {
+            "fields": [
+              "OPPORTUNITY.NAME",
+              "OPPORTUNITY.STAGE_NAME",
+              "OPPORTUNITY.AMOUNT",
+              "OPPORTUNITY.CLOSE_DATE"
+            ],
+            "relatedList": "RelatedOpportunityList"
+          },
+          {
+            "relatedList": "RelatedNoteList"
+          },
+          {
+            "fields": [
+              "ACCOUNT.NAME",
+              "OPPORTUNITY.NAME",
+              "PARTNER.ROLE"
+            ],
+            "relatedList": "RelatedPartnerList"
+          }
+        ],
+        "relatedObjects": "ParentId",
+        "showEmailCheckbox": "false",
+        "showHighlightsPanel": "false",
+        "showInteractionLogPanel": "false",
+        "showRunAssignmentRulesCheckbox": "false",
+        "showSubmitAndAttachButton": "false",
+        "summaryLayout": {
+          "masterLabel": "00h1a0000012AHI",
+          "sizeX": "4",
+          "sizeY": "0",
+          "summaryLayoutStyle": "Default"
+        }
+      },
+      "fields_on_layout": [
+        "TickerSymbol",
+        "ParentId",
+        "BillingAddress",
+        "Type",
+        "AnnualRevenue",
+        "SLA__c",
+        "Active__c",
+        "OwnerId",
+        "NumberofLocations__c",
+        "Ownership",
+        "SLASerialNumber__c",
+        "CustomerPriority__c",
+        "Fax",
+        "Name",
+        "LastModifiedById",
+        "SLAExpirationDate__c",
+        "Description",
+        "Website",
+        "NumberOfEmployees",
+        "Site",
+        "Industry",
+        "Rating",
+        "CreatedById",
+        "Sic",
+        "ShippingAddress",
+        "AccountNumber",
+        "UpsellOpportunity__c",
+        "Phone"
+      ],
+      "sections": [],
+      "related_lists": []
+    },
+    {
+      "id": "layout_Account-Account_Layout",
+      "type": "Layout",
+      "name": "Account-Account Layout",
+      "object": "Account",
+      "metadata": {
+        "excludeButtons": "Submit",
+        "layoutSections": [
+          {
+            "customLabel": "false",
+            "detailHeading": "false",
+            "editHeading": "true",
+            "label": "Account Information",
+            "layoutColumns": [
+              {
+                "layoutItems": [
+                  {
+                    "behavior": "Edit",
+                    "field": "OwnerId"
+                  },
+                  {
+                    "behavior": "Required",
+                    "field": "Name"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "ParentId"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "AccountNumber"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Site"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Type"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Industry"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "AnnualRevenue"
+                  }
+                ]
+              },
+              {
+                "layoutItems": [
+                  {
+                    "behavior": "Edit",
+                    "field": "Rating"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Phone"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Fax"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Website"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "TickerSymbol"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Ownership"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "NumberOfEmployees"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Sic"
+                  }
+                ]
+              }
+            ],
+            "style": "TwoColumnsTopToBottom"
+          },
+          {
+            "customLabel": "false",
+            "detailHeading": "false",
+            "editHeading": "true",
+            "label": "Address Information",
+            "layoutColumns": [
+              {
+                "layoutItems": {
+                  "behavior": "Edit",
+                  "field": "BillingAddress"
+                }
+              },
+              {
+                "layoutItems": {
+                  "behavior": "Edit",
+                  "field": "ShippingAddress"
+                }
+              }
+            ],
+            "style": "TwoColumnsTopToBottom"
+          },
+          {
+            "customLabel": "false",
+            "detailHeading": "false",
+            "editHeading": "true",
+            "label": "Additional Information",
+            "layoutColumns": [
+              {
+                "layoutItems": [
+                  {
+                    "behavior": "Edit",
+                    "field": "CustomerPriority__c"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "SLAExpirationDate__c"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "NumberofLocations__c"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "Active__c"
+                  }
+                ]
+              },
+              {
+                "layoutItems": [
+                  {
+                    "behavior": "Edit",
+                    "field": "SLA__c"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "SLASerialNumber__c"
+                  },
+                  {
+                    "behavior": "Edit",
+                    "field": "UpsellOpportunity__c"
+                  }
+                ]
+              }
+            ],
+            "style": "TwoColumnsLeftToRight"
+          },
+          {
+            "customLabel": "false",
+            "detailHeading": "false",
+            "editHeading": "true",
+            "label": "System Information",
+            "layoutColumns": [
+              {
+                "layoutItems": {
+                  "behavior": "Readonly",
+                  "field": "CreatedById"
+                }
+              },
+              {
+                "layoutItems": {
+                  "behavior": "Readonly",
+                  "field": "LastModifiedById"
+                }
+              }
+            ],
+            "style": "TwoColumnsTopToBottom"
+          },
+          {
+            "customLabel": "false",
+            "detailHeading": "false",
+            "editHeading": "true",
+            "label": "Description Information",
+            "layoutColumns": {
+              "layoutItems": {
+                "behavior": "Edit",
+                "field": "Description"
+              }
+            },
+            "style": "OneColumn"
+          },
+          {
+            "customLabel": "false",
+            "detailHeading": "false",
+            "editHeading": "false",
+            "label": "Custom Links",
+            "layoutColumns": [
+              {
+                "layoutItems": {
+                  "customLink": "Billing"
+                }
+              },
+              null,
+              null
+            ],
+            "style": "CustomLinks"
+          }
+        ],
+        "platformActionList": {
+          "actionListContext": "Record",
+          "platformActionListItems": [
+            {
+              "actionName": "FeedItem.TextPost",
+              "actionType": "QuickAction",
+              "sortOrder": "0"
+            },
+            {
+              "actionName": "FeedItem.ContentPost",
+              "actionType": "QuickAction",
+              "sortOrder": "1"
+            },
+            {
+              "actionName": "NewTask",
+              "actionType": "QuickAction",
+              "sortOrder": "2"
+            },
+            {
+              "actionName": "NewContact",
+              "actionType": "QuickAction",
+              "sortOrder": "3"
+            },
+            {
+              "actionName": "NewCase",
+              "actionType": "QuickAction",
+              "sortOrder": "4"
+            },
+            {
+              "actionName": "LogACall",
+              "actionType": "QuickAction",
+              "sortOrder": "5"
+            },
+            {
+              "actionName": "NewNote",
+              "actionType": "QuickAction",
+              "sortOrder": "6"
+            },
+            {
+              "actionName": "NewOpportunity",
+              "actionType": "QuickAction",
+              "sortOrder": "7"
+            },
+            {
+              "actionName": "NewEvent",
+              "actionType": "QuickAction",
+              "sortOrder": "8"
+            },
+            {
+              "actionName": "FeedItem.LinkPost",
+              "actionType": "QuickAction",
+              "sortOrder": "9"
+            },
+            {
+              "actionName": "FeedItem.PollPost",
+              "actionType": "QuickAction",
+              "sortOrder": "10"
+            },
+            {
+              "actionName": "FeedItem.QuestionPost",
+              "actionType": "QuickAction",
+              "sortOrder": "11"
+            },
+            {
+              "actionName": "SendEmail",
+              "actionType": "QuickAction",
+              "sortOrder": "12"
+            },
+            {
+              "actionName": "ChangeOwnerOne",
+              "actionType": "StandardButton",
+              "sortOrder": "13"
+            },
+            {
+              "actionName": "IncludeOffline",
+              "actionType": "StandardButton",
+              "sortOrder": "14"
+            },
+            {
+              "actionName": "XClean",
+              "actionType": "StandardButton",
+              "sortOrder": "15"
+            },
+            {
+              "actionName": "Submit",
+              "actionType": "StandardButton",
+              "sortOrder": "16"
+            },
+            {
+              "actionName": "SendEmail",
+              "actionType": "StandardButton",
+              "sortOrder": "17"
+            },
+            {
+              "actionName": "JigsawSearch",
+              "actionType": "StandardButton",
+              "sortOrder": "18"
+            },
+            {
+              "actionName": "Edit",
+              "actionType": "StandardButton",
+              "sortOrder": "19"
+            },
+            {
+              "actionName": "Delete",
+              "actionType": "StandardButton",
+              "sortOrder": "20"
+            },
+            {
+              "actionName": "ChangeRecordType",
+              "actionType": "StandardButton",
+              "sortOrder": "21"
+            },
+            {
+              "actionName": "Share",
+              "actionType": "StandardButton",
+              "sortOrder": "22"
+            },
+            {
+              "actionName": "AccountHierarchy",
+              "actionType": "StandardButton",
+              "sortOrder": "23"
+            },
+            {
+              "actionName": "CallHighlightAction",
+              "actionType": "ProductivityAction",
+              "sortOrder": "24"
+            },
+            {
+              "actionName": "SmsHighlightAction",
+              "actionType": "ProductivityAction",
+              "sortOrder": "25"
+            },
+            {
+              "actionName": "EmailHighlightAction",
+              "actionType": "ProductivityAction",
+              "sortOrder": "26"
+            },
+            {
+              "actionName": "WebsiteHighlightAction",
+              "actionType": "ProductivityAction",
+              "sortOrder": "27"
+            }
+          ]
+        },
+        "quickActionList": {
+          "quickActionListItems": [
+            {
+              "quickActionName": "FeedItem.TextPost"
+            },
+            {
+              "quickActionName": "FeedItem.ContentPost"
+            },
+            {
+              "quickActionName": "NewTask"
+            },
+            {
+              "quickActionName": "NewContact"
+            },
+            {
+              "quickActionName": "NewCase"
+            },
+            {
+              "quickActionName": "LogACall"
+            },
+            {
+              "quickActionName": "NewNote"
+            },
+            {
+              "quickActionName": "NewOpportunity"
+            },
+            {
+              "quickActionName": "NewEvent"
+            },
+            {
+              "quickActionName": "FeedItem.LinkPost"
+            },
+            {
+              "quickActionName": "FeedItem.PollPost"
+            },
+            {
+              "quickActionName": "FeedItem.QuestionPost"
+            },
+            {
+              "quickActionName": "SendEmail"
+            }
+          ]
+        },
+        "relatedLists": [
+          {
+            "fields": [
+              "FULL_NAME",
+              "CONTACT.TITLE",
+              "CONTACT.EMAIL",
+              "CONTACT.PHONE1"
+            ],
+            "relatedList": "RelatedContactList"
+          },
+          {
+            "fields": [
+              "OPPORTUNITY.NAME",
+              "OPPORTUNITY.STAGE_NAME",
+              "OPPORTUNITY.AMOUNT",
+              "OPPORTUNITY.CLOSE_DATE"
+            ],
+            "relatedList": "RelatedOpportunityList"
+          },
+          {
+            "fields": [
+              "CASES.CASE_NUMBER",
+              "NAME",
+              "CASES.SUBJECT",
+              "CASES.PRIORITY",
+              "CASES.CREATED_DATE_DATE_ONLY",
+              "CASES.STATUS",
+              "OWNER_NAME"
+            ],
+            "relatedList": "RelatedCaseList"
+          },
+          {
+            "fields": [
+              "TASK.SUBJECT",
+              "TASK.WHO_NAME",
+              "TASK.WHAT_NAME",
+              "ACTIVITY.TASK",
+              "TASK.DUE_DATE",
+              "TASK.STATUS",
+              "TASK.PRIORITY",
+              "CORE.USERS.FULL_NAME"
+            ],
+            "relatedList": "RelatedActivityList"
+          },
+          {
+            "fields": [
+              "TASK.SUBJECT",
+              "TASK.WHO_NAME",
+              "TASK.WHAT_NAME",
+              "ACTIVITY.TASK",
+              "TASK.DUE_DATE",
+              "CORE.USERS.FULL_NAME",
+              "TASK.LAST_UPDATE"
+            ],
+            "relatedList": "RelatedHistoryList"
+          },
+          {
+            "relatedList": "RelatedNoteList"
+          },
+          {
+            "fields": [
+              "ACCOUNT.NAME",
+              "OPPORTUNITY.NAME",
+              "PARTNER.ROLE"
+            ],
+            "relatedList": "RelatedPartnerList"
+          }
+        ],
+        "relatedObjects": "ParentId",
+        "showEmailCheckbox": "false",
+        "showHighlightsPanel": "false",
+        "showInteractionLogPanel": "false",
+        "showRunAssignmentRulesCheckbox": "false",
+        "showSubmitAndAttachButton": "false",
+        "summaryLayout": {
+          "masterLabel": "00h1a0000012AGq",
+          "sizeX": "4",
+          "sizeY": "0",
+          "summaryLayoutStyle": "Default"
+        }
+      },
+      "fields_on_layout": [
+        "TickerSymbol",
+        "ParentId",
+        "BillingAddress",
+        "Type",
+        "AnnualRevenue",
+        "SLA__c",
+        "Active__c",
+        "OwnerId",
+        "NumberofLocations__c",
+        "Ownership",
+        "SLASerialNumber__c",
+        "CustomerPriority__c",
+        "Fax",
+        "Name",
+        "LastModifiedById",
+        "SLAExpirationDate__c",
+        "Description",
+        "Website",
+        "NumberOfEmployees",
+        "Site",
+        "Industry",
+        "Rating",
+        "CreatedById",
+        "Sic",
+        "ShippingAddress",
+        "AccountNumber",
+        "UpsellOpportunity__c",
+        "Phone"
+      ],
+      "sections": [],
+      "related_lists": []
+    }
+  ],
+  "classes": [
+    {
+      "id": "class_AccountCallOutService",
+      "type": "ApexClass",
+      "name": "AccountCallOutService",
+      "source_code": "public class AccountCallOutService {\n    \n    public static void getAllAccounts() {         \n        try {\n            String accessToken = AccountCallOutServiceHelper.getRequestToken();\n            if (String.isNotBlank(accessToken)) {\n                String endpoint = 'https://manageusers-dev-ed.my.salesforce.com/services/apexrest/sfaccounts';\n                HttpResponse res = AccountCallOutServiceHelper.sendHttpRequest(accessToken, endpoint, 'GET', null);\n                handleResponse(res);\n            } else {\n                system.debug('Access token is null or empty');\n            }\n        } catch(Exception e) {\n            system.debug('Exception occurred: ' + e.getMessage());\n        }        \n    }\n    \n    public static void createAccount(String accName, String accPhone) {\n        try {\n            String accessToken = AccountCallOutServiceHelper.getRequestToken();\n            if (String.isNotBlank(accessToken)) {\n                String endpoint = 'https://manageusers-dev-ed.my.salesforce.com/services/apexrest/sfaccounts';\n                String requestBody = '{\"accountName\":\"' + accName + '\", \"accountPhone\":\"' + accPhone + '\"}';\n                HttpResponse res = AccountCallOutServiceHelper.sendHttpRequest(accessToken, endpoint, 'POST', requestBody);\n                handleResponse(res);\n            } else {\n                system.debug('Access token is null or empty');\n            }\n        } catch(Exception e) {\n            system.debug('Exception occurred: ' + e.getMessage());\n        }        \n    }\n    \n    public static void updateAccount(String accountId, String accOwnerShip, String accPhone) {\n        try {\n            String accessToken = AccountCallOutServiceHelper.getRequestToken();\n            if (String.isNotBlank(accessToken)) {\n                String endpoint = 'https://manageusers-dev-ed.my.salesforce.com/services/apexrest/sfaccounts/' + accountId;\n                String requestBody = '{\"accountOwnerShip\":\"' + accOwnerShip + '\", \"accountPhone\":\"' + accPhone + '\"}';\n                HttpResponse res = AccountCallOutServiceHelper.sendHttpRequest(accessToken, endpoint, 'PUT', requestBody);\n                handleResponse(res);\n            } else {\n                system.debug('Access token is null or empty');\n            }\n        } catch(Exception e) {\n            system.debug('Exception occurred: ' + e.getMessage());\n        }        \n    }\n    \n    public static void deleteAccount(String accountId) {\n        try {\n            String accessToken = AccountCallOutServiceHelper.getRequestToken();\n            if (String.isNotBlank(accessToken)) {\n                String endpoint = 'https://manageusers-dev-ed.my.salesforce.com/services/apexrest/sfaccounts/' + accountId;\n                HttpResponse res = AccountCallOutServiceHelper.sendHttpRequest(accessToken, endpoint, 'DELETE', null);\n                handleResponse(res);\n            } else {\n                system.debug('Access token is null or empty');\n            }\n        } catch(Exception e) {\n            system.debug('Exception occurred: ' + e.getMessage());\n        }        \n    }\n    \n    private static void handleResponse(HttpResponse res) {\n        if (res != null) {\n            if (res.getStatusCode() == 200) {\n                String responseBody = res.getBody();\n                system.debug('Response : ' + responseBody);\n            } else {\n                String errorMessage = 'Error: ' + res.getStatusCode() + ' - ' + res.getStatus() + '\\n' + res.getBody();\n                system.debug(errorMessage);\n            }\n        } else {\n            system.debug('Response is null');\n        }\n    }\n}",
+      "metadata": {
+        "apiVersion": "60.0",
+        "status": "Active"
+      },
+      "comprehensive_dependencies": {
+        "objects": [],
+        "classes": [
+          "AccountCallOutServiceHelper"
+        ],
+        "fields": [],
+        "methods": [
+          "AccountCallOutServiceHelper.sendHttpRequest",
+          "AccountCallOutServiceHelper.getRequestToken"
+        ],
+        "custom_settings": [],
+        "web_services": [],
+        "email_templates": [],
+        "custom_labels": [],
+        "static_resources": [],
+        "triggers": [],
+        "workflows": []
+      }
+    },
+    {
+      "id": "class_AccountCallOutServiceHelper",
+      "type": "ApexClass",
+      "name": "AccountCallOutServiceHelper",
+      "source_code": "public class AccountCallOutServiceHelper {\n    \n    public class resWrapper\n    {\n        public String id;\n        public String access_token;\n    }\n    \n    public static String getRequestToken(){\n        \n        //Get custom settings:\n        ManageUsersOrgSettings__c orgSettings = [SELECT LoginURL__c, InstanceURL__c, clientId__c, clientSecret__c, username__c, password__c FROM ManageUsersOrgSettings__c where OrgName__c = 'manageusers'];\n       \n        String reqbody = 'grant_type=password'+'&client_id='+orgSettings.clientId__c+'&client_secret='+orgSettings.clientSecret__c+'&username='+orgSettings.username__c+'&password='+orgSettings.password__c;\n        //String reqbody = 'grant_type=authorization_code'+'&client_id='+orgSettings.clientId__c+'&client_secret='+orgSettings.clientSecret__c+'&username='+orgSettings.username__c;\n        Http h1 = new Http();\n        HttpRequest req = new HttpRequest();\n        req.setBody(reqbody);\n        req.setMethod('POST');\n        req.setEndpoint('https://login.salesforce.com/services/oauth2/token');\n        HttpResponse res = h1.send(req);\n        resWrapper response = (resWrapper)JSON.deserialize(res.getBody(),resWrapper.class);\n        System.debug('response--->>>'+response);\n        return response.access_token;\n    }\n    \n    //below method has some issue, OAuthTokenFetcher is working class\n    public static String getRequestTokenv2(){\n        \n        //Get custom settings:\n        ManageUsersOrgSettings__c orgSettings = [SELECT LoginURL__c, InstanceURL__c, clientId__c, clientSecret__c, username__c, password__c FROM ManageUsersOrgSettings__c where OrgName__c = 'manageusers'];\n       \n        String cid = '3MVG9fnmEuvG9uRNA5LciEB_NzwYMIKMhCuU9FPBuljNqdDU6RpkCM.nF.jL4zRK1iY5xGSn_wLdNJQOKa3if';\n        string cs = 'CBD4D0C1C8958C508B8C2411D8AF5B4C602AC48BD1A504D82F0C4A9B565555A3';\n        String reqbody = 'grant_type=client_credentials'+'&client_id='+cid+'&client_secret='+cs;\n        String body = 'client_id='+cid+\n                      '&client_secret='+cs+\n                      '&grant_type=client_credentials';\n        Http h1 = new Http();\n        HttpRequest req = new HttpRequest();\n        req.setHeader('Content-Type', 'application/x-www-form-urlencoded');\n        req.setBody(body);\n        req.setMethod('POST');\n        req.setEndpoint('https://dynegy--raghudev.sandbox.my.salesforce.com/services/oauth2/token');\n        HttpResponse res = h1.send(req);\n        resWrapper response = (resWrapper)JSON.deserialize(res.getBody(),resWrapper.class);\n        System.debug('response--->>>'+response);\n        return response.access_token;\n    }\n    \n    public static HttpResponse sendHttpRequest(String accessToken, String endpoint, String method, String requestBody) {\n        HttpRequest req = new HttpRequest();\n        req.setEndpoint(endpoint); \n        req.setMethod(method);\n        req.setHeader('Authorization', 'Bearer ' + accessToken);\n        req.setHeader('Content-Type', 'application/json');\n        req.setHeader('Accept', 'application/json');\n        if (method != 'GET' && method != 'DELETE') {\n            req.setBody(requestBody);\n        }\n        \n        Http http = new Http();            \n        return http.send(req);\n    }\n    \n   /*    public static String getAccessToken() {\n        // Get custom settings\n        ManageUsersOrgSettings__c orgSettings = [SELECT LoginURL__c, InstanceURL__c, clientId__c, clientSecret__c, username__c, password__c, jwtPrivateKey__c FROM ManageUsersOrgSettings__c where OrgName__c = 'manageusers'];\n\n        // Generate the JWT token\n        String jwtToken = generateJWTToken(orgSettings.clientId__c, orgSettings.username__c, orgSettings.jwtPrivateKey__c);\n\n        // Exchange the JWT token for an access token\n        String accessToken = exchangeJWTForAccessToken(orgSettings.clientId__c, orgSettings.clientSecret__c, jwtToken, orgSettings.LoginURL__c);\n\n        return accessToken;\n    }\n    \n    \n private static String generateJWTToken(String clientId, String username, String jwtPrivateKey) {\n        // Generate the JWT token using the provided client ID, username, and private key\n        // This code will vary depending on the JWT library you use\n        // Example using the 'jwt-handler' library:\n        Jwt jwt = new Jwt();\n        jwt.setIssuer(clientId);\n        jwt.setSubject(username);\n        jwt.setAudience('https://login.salesforce.com');\n        jwt.setExpirationTime(System.now().addSeconds(300)); // Token expires in 5 minutes\n        return jwt.sign(jwtPrivateKey);\n    }\n    \n    private static String exchangeJWTForAccessToken(String clientId, String clientSecret, String jwtToken, String loginUrl) {\n        // Exchange the JWT token for an access token\n        Http http = new Http();\n        HttpRequest req = new HttpRequest();\n        req.setEndpoint(loginUrl + '/services/oauth2/token');\n        req.setMethod('POST');\n        req.setHeader('Content-Type', 'application/x-www-form-urlencoded');\n        req.setBody('grant_type=urn:ietf:params:oauth:grant-type:jwt-bearer&assertion=' + jwtToken);\n        //req.setHeader('Authorization', 'Basic ' + EncodingUtil.base64Encode(clientId + ':' + clientSecret));\n\n        HttpResponse res = http.send(req);\n        Map<String, Object> responseMap = (Map<String, Object>)JSON.deserializeUntyped(res.getBody());\n        return (String)responseMap.get('access_token');\n    }\n*/\n}",
+      "metadata": {
+        "apiVersion": "60.0",
+        "status": "Active"
+      },
+      "comprehensive_dependencies": {
+        "objects": [
+          "Http",
+          "ManageUsersOrgSettings__c",
+          "Jwt",
+          "Object",
+          "HttpRequest"
+        ],
+        "classes": [
+          "EncodingUtil",
+          "Jwt"
+        ],
+        "fields": [
+          "ManageUsersOrgSettings__c.InstanceURL__c",
+          "ManageUsersOrgSettings__c.LoginURL__c"
+        ],
+        "methods": [
+          "EncodingUtil.base64Encode"
+        ],
+        "custom_settings": [],
+        "web_services": [
+          "Http h1 = new Http()",
+          "https://login.salesforce.com/services/oauth2/token",
+          "Http http = new Http()",
+          "https://dynegy--raghudev.sandbox.my.salesforce.com/services/oauth2/token"
+        ],
+        "email_templates": [],
+        "custom_labels": [],
+        "static_resources": [],
+        "triggers": [],
+        "workflows": []
+      }
+    },
+    {
+      "id": "class_AccountEmailHelper",
+      "type": "ApexClass",
+      "name": "AccountEmailHelper",
+      "source_code": "public class AccountEmailHelper {\n    // Public method\n    public static void sendMail(String address, String subject, String body) {\n        // Create an email message object\n        Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();\n        String[] toAddresses = new String[] {address};\n        mail.setToAddresses(toAddresses);\n        mail.setSubject(subject);\n        mail.setPlainTextBody(body);\n        // Pass this email message to the built-in sendEmail method \n        // of the Messaging class\n        Messaging.SendEmailResult[] results = Messaging.sendEmail(\n                                  new Messaging.SingleEmailMessage[] { mail });\n        // Call a helper method to inspect the returned results\n        inspectResults(results);\n    }\n    // Helper method\n    private static Boolean inspectResults(Messaging.SendEmailResult[] results) {\n        Boolean sendResult = true;\n        // sendEmail returns an array of result objects.\n        // Iterate through the list to inspect results. \n        // In this class, the methods send only one email, \n        // so we should have only one result.\n        for (Messaging.SendEmailResult res : results) {\n            if (res.isSuccess()) {\n                System.debug('Email sent successfully');\n            }\n            else {\n                sendResult = false;\n                System.debug('The following errors occurred: ' + res.getErrors());                 \n            }\n        }\n        return sendResult;\n    }\n}",
+      "metadata": {
+        "apiVersion": "60.0",
+        "status": "Active"
+      },
+      "comprehensive_dependencies": {
+        "objects": [],
+        "classes": [],
+        "fields": [],
+        "methods": [],
+        "custom_settings": [],
+        "web_services": [],
+        "email_templates": [
+          "Messaging.sendEmail",
+          "Messaging.SingleEmailMessage"
+        ],
+        "custom_labels": [],
+        "static_resources": [],
+        "triggers": [],
+        "workflows": []
+      }
+    },
+    {
+      "id": "class_AccountHandler",
+      "type": "ApexClass",
+      "name": "AccountHandler",
+      "source_code": "public class AccountHandler {\n    \n    //Sequential \n    \n    public static void handleBeforeInsert(List<Account> newAccounts){        \n        for(Account accRecord : newAccounts){\n            system.debug('Account ID : ' + accRecord.Id); \n        }         \n    }\n    \n   public static void handleAfterInsert(List<Account> newAccounts){ \n\t\tList<Contact> conList = new List<Contact>();   \n       Set<Id> accIds = new Set<ID>();\n        for(Account accRecord : newAccounts){            \n            system.debug('Account ID : ' + accRecord.Id);            \n            Contact con = new Contact(FirstName = 'First', LastName = accRecord.Name, AccountId = accRecord.Id);\n            conList.add(con); \n            accIds.add(accRecord.Id);\n        } \n       insert conList;\n       AnimalCallOutService.getAnimalDetailsForAccount(accIds);\n       \n       \n    } \n    \n    //UI --> enter data --> hit save button --> Trigger before insert --> write all business logic  --> Store in  Database --> Call after insert\n    //If type == prospect --> I cannot change it to technilogy partner, if type != prospect i can change is to technology partner\n    //Map\n    \n    //Type -> prospect --> abc ?\n    //Type -> prospect --> bbc ?\n    //Type -> prospect --> Other ? \n    \n  /*   public static void handleBeforeInsert(List<Account> newAccounts){        \n        for(Account accRecord : newAccounts){\n            if(String.isBlank(accRecord.Industry)){\n                accRecord.Industry = 'Technology';\n            }\n        }         \n    }\n    \n    public static void handleBeforeUpdate(List<Account> newAccounts, List<Account> oldAccounts, Map<Id, Account> oldMap){        \n        \n        //In Before Update do we have id for all the records coming in to this method ? --> Yes\n        //What will newAccounts contain ? --> Contains Updated account records\n        //What will oldAccounts contain ? --> Contains old data before the user updated the record or contains the data present in the database\n        //What will oldMap contain ? --> all key value pairs,  ID and Account record pair \n        for(Account acc : newAccounts){\n            if(oldMap.get(acc.id).Type == 'Prospect' && acc.Type == 'Other'){\n                acc.addError('Prospect cannot be changed to Other');\n            }     \n        }\n        //Id temp = '001al000002FXtoAAG';\n        system.debug('Contents of Map : ' + oldMap.get('001al000002FXtoAAG'));\n        system.debug('Contents of Map Type : ' + oldMap.get('001al000002FXtoAAG').Type);\n        \n        */\n        \n        \n        /*for(Account accRecord : newAccounts){\n            if(accRecord.NumberOfEmployees == null){\n                accRecord.NumberOfEmployees = 5;\n            }\n            system.debug('Before update new accRecord : ' + accRecord);\n        }      \n        for(Account accRecord : oldAccounts){\n            system.debug('Before update old accRecord : ' + accRecord);\n        }      \n    } */\n    \n    //I will create a contact by default for every account\n /*   public static void handleAfterInsert(List<Account> newAccounts){        \n        for(Account accRecord : newAccounts){\n            system.debug('Insert accRecord : ' + accRecord);\n        }         \n    } \n    \n    public static void handleAfterUpdate(List<Account> newAccounts){        \n        for(Account accRecord : newAccounts){\n            system.debug('After update accRecord : ' + accRecord);\n        }         \n    } */\n    \n}",
+      "metadata": {
+        "apiVersion": "60.0",
+        "status": "Active"
+      },
+      "comprehensive_dependencies": {
+        "objects": [
+          "conList",
+          "Id",
+          "accRecord",
+          "Account",
+          "old",
+          "new",
+          "do",
+          "Contact",
+          "ID"
+        ],
+        "classes": [
+          "Contact",
+          "AnimalCallOutService"
+        ],
+        "fields": [
+          "NumberOfEmployees",
+          "Industry",
+          "Type"
+        ],
+        "methods": [
+          "AnimalCallOutService.getAnimalDetailsForAccount"
+        ],
+        "custom_settings": [],
+        "web_services": [],
+        "email_templates": [],
+        "custom_labels": [],
+        "static_resources": [],
+        "triggers": [],
+        "workflows": []
+      }
+    },
+    {
+      "id": "class_AccountHandlerTest",
+      "type": "ApexClass",
+      "name": "AccountHandlerTest",
+      "source_code": "@isTest\npublic class AccountHandlerTest {\n    \n    @isTest\n    public static void handleBeforeInsertBlankTest(){\n        Account acc = new Account(Name='Demo Account'); \n        insert acc;        \n        acc = [select Industry from Account where Id = :acc.Id];\n        System.assertEquals('Technology', acc.Industry); \n    }\n    \n    @isTest\n    public static void handleBeforeInsertNonBlankTest(){\n        Account acc = new Account(); \n        acc.Name = 'Test Account';\n        acc.Industry = 'Agriculture';\n        insert acc; \n        acc = [select Industry from Account where Id = :acc.Id];\n        System.assertEquals('Agriculture', acc.Industry);\n    }    \n}",
+      "metadata": {
+        "apiVersion": "60.0",
+        "status": "Active"
+      },
+      "comprehensive_dependencies": {
+        "objects": [
+          "acc",
+          "Account"
+        ],
+        "classes": [
+          "Account"
+        ],
+        "fields": [
+          "Industry",
+          "Account.Industry",
+          "Name"
+        ],
+        "methods": [],
+        "custom_settings": [],
+        "web_services": [],
+        "email_templates": [],
+        "custom_labels": [],
+        "static_resources": [],
+        "triggers": [],
+        "workflows": []
+      }
+    }
+  ],
+  "triggers": [
+    {
+      "id": "trigger_AccountTrigger",
+      "type": "ApexTrigger",
+      "name": "AccountTrigger",
+      "source_code": "trigger AccountTrigger on Account (before insert, before update, after insert, after update) {\n    \n    //Create Account --> Name is mandatory \n    //Create contact --> LastName is mandatory\n    //Establish relation ship between Account and Contact --> On the contact Populate the accountId field with the account id --> where is the accountID coming from ?\n      \n    //Recurssion\n    //Governor limits \n    //Order of execution\n    \n    if(trigger.isBefore && trigger.isInsert){\n\t\tAccountHandler.handleBeforeInsert(trigger.new);\n\t} \n    \n    if(trigger.isAfter && trigger.isInsert){\n        AccountHandler.handleAfterInsert(trigger.new);\n    }\n}\n\n\n/*\n  \n  if(trigger.isBefore && trigger.isInsert){\n\t\tAccountHandler.handleBeforeInsert(trigger.new);\n\t} \n \n if(trigger.isBefore && trigger.isInsert){\n\t\tAccountHandler.handleBeforeInsert(trigger.new);\n\t}\n    else if(trigger.isBefore && trigger.isUpdate){\n    \tAccountHandler.handleBeforeUpdate(trigger.new, trigger.old, trigger.oldMap);\n\t}\n    if(trigger.isAfter && trigger.isInsert){\n        AccountHandler.handleAfterInsert(trigger.new);\n    }\n    else if(trigger.isAfter && trigger.isUpdate){\n    \tAccountHandler.handleAfterUpdate(trigger.new);\n\t}\n*/\n\n//invoke here the handler class\n    //Trigger --> Handler class --> Helper Class \n\n\n  //ABC.bbc  \n    //Dont execute Industry --> technology in update sceario\n    //Perform a different logic in updat scenario\n   //Trigger Context variables \n    \n    \n    //UI --> Enter data --> Save --> Control comes to Trigger --> data is in trigger.new --> send this data to handler class --> write Business logic --> saved to DB\n    //Control\n    //Data\n    \n    \n    //Source to destination --> car --> Mustang\n    //Costco --> Instacart --> House door step --> person --> refre\n    //\n    //Browser --> Trigger -->  DB --> vehicle --> trigger.new\n    \n    //Browser --> Trigger\n \t//\t\t\t\ttrigger.new  --> BL --> DB\n \t//\t\t\t\t\n \t//Broswer --> Trigger --> trigger.new --> Handler Class\t--> BL\t\t\t\n    \n   \n    \n    \n    /*  \n    List<Integer> lst = new List<Integer>();\n    lst.add(3); // 0 \n    lst.add(7); // 1\n    lst.add(5); // 2 \n    \n    for(Integer abc : lst){\n        system.debug('The elements in the list are : ' + abc);\n    }\n    */\n   //trigger.new -- //lst --> variable containing all records\n   //bbc -- //abc --> temporary variable name tha can hold data for each iteration\n   //Account -- //Integer --> the type of data that is stored in the lst(List) variable\n  /*  \n    for(Account accRecord : trigger.new){\n        system.debug('The account record from UI is : ' + accRecord);\n        system.debug('The account record Name is : ' + accRecord.Name);        \n        system.debug('The account record Owner is : ' + accRecord.OwnerId);\n        \n        system.debug('Industry value before : ' + accRecord.Industry);\n        if(accRecord.Industry == null){\n            accRecord.Industry = 'Technology';\n        }\n        system.debug('Industry value after : ' + accRecord.Industry);\n        \n    } \n*/",
+      "metadata": {
+        "apiVersion": "60.0",
+        "status": "Active"
+      },
+      "trigger_events": [
+        "before insert",
+        "before update",
+        "after insert",
+        "after update"
+      ],
+      "comprehensive_dependencies": {
+        "objects": [
+          "UI",
+          "sceario",
+          "Integer"
+        ],
+        "classes": [
+          "AccountHandler"
+        ],
+        "fields": [
+          "Industry"
+        ],
+        "methods": [
+          "AccountHandler.handleBeforeUpdate",
+          "AccountHandler.handleAfterUpdate",
+          "AccountHandler.handleAfterInsert",
+          "AccountHandler.handleBeforeInsert"
+        ],
+        "custom_settings": [],
+        "web_services": [],
+        "email_templates": [],
+        "custom_labels": [],
+        "static_resources": [],
+        "triggers": [],
+        "workflows": []
+      },
+      "object": "Account"
+    }
+  ],
+  "workflows": [
+    {
+      "id": "workflow_Account",
+      "type": "Workflow",
+      "name": "Account",
+      "object": "Account",
+      "metadata": {
+        "fieldUpdates": {
+          "fullName": "Set_Description",
+          "field": "Description",
+          "formula": "Name",
+          "name": "Set Description",
+          "notifyAssignee": "false",
+          "operation": "Formula",
+          "protected": "false",
+          "reevaluateOnChange": "false"
+        },
+        "rules": {
+          "fullName": "Default Description to Account Name",
+          "actions": {
+            "name": "Set_Description",
+            "type": "FieldUpdate"
+          },
+          "active": "false",
+          "criteriaItems": {
+            "field": "Account.Name",
+            "operation": "notEqual"
+          },
+          "triggerType": "onAllChanges"
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "object_Account",
+      "to": "field_Account_AccountNumber",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_AccountSource",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Active__c",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_AnnualRevenue",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_BillingAddress",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_CleanStatus",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_CustomerPriority__c",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_DandbCompanyId",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Description",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_DunsNumber",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Fax",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Industry",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Jigsaw",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_NaicsCode",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_NaicsDesc",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Name",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_NumberOfEmployees",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_NumberofLocations__c",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_OperatingHoursId",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_OwnerId",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Ownership",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_ParentId",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Phone",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Rating",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_ShippingAddress",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Sic",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_SicDesc",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Site",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_SLAExpirationDate__c",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_SLASerialNumber__c",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_SLA__c",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_TickerSymbol",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Tier",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Tradestyle",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Type",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_UpsellOpportunity__c",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_Website",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "field_Account_YearStarted",
+      "type": "HAS_FIELD"
+    },
+    {
+      "from": "object_Account",
+      "to": "listview_Account_AllAccounts",
+      "type": "HAS_LISTVIEW"
+    },
+    {
+      "from": "object_Account",
+      "to": "listview_Account_MyAccounts",
+      "type": "HAS_LISTVIEW"
+    },
+    {
+      "from": "object_Account",
+      "to": "listview_Account_NewLastWeek",
+      "type": "HAS_LISTVIEW"
+    },
+    {
+      "from": "object_Account",
+      "to": "listview_Account_NewThisWeek",
+      "type": "HAS_LISTVIEW"
+    },
+    {
+      "from": "object_Account",
+      "to": "listview_Account_PlatinumandGoldSLACustomers",
+      "type": "HAS_LISTVIEW"
+    },
+    {
+      "from": "object_Account",
+      "to": "weblink_Account_Billing",
+      "type": "HAS_WEBLINK"
+    },
+    {
+      "from": "object_Account",
+      "to": "layout_Account-Account_Marketing_Layout",
+      "type": "HAS_LAYOUT",
+      "details": "Layout displays 28 fields"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_TickerSymbol",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field TickerSymbol is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_ParentId",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field ParentId is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_BillingAddress",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field BillingAddress is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_Type",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Type is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_AnnualRevenue",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field AnnualRevenue is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_SLA__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field SLA__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_Active__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Active__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_OwnerId",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field OwnerId is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_NumberofLocations__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field NumberofLocations__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_Ownership",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Ownership is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_SLASerialNumber__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field SLASerialNumber__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_CustomerPriority__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field CustomerPriority__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_Fax",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Fax is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_Name",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Name is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_LastModifiedById",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field LastModifiedById is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_SLAExpirationDate__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field SLAExpirationDate__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_Description",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Description is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_Website",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Website is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_NumberOfEmployees",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field NumberOfEmployees is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_Site",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Site is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_Industry",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Industry is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_Rating",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Rating is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_CreatedById",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field CreatedById is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_Sic",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Sic is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_ShippingAddress",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field ShippingAddress is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_AccountNumber",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field AccountNumber is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_UpsellOpportunity__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field UpsellOpportunity__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Marketing_Layout",
+      "to": "field_Account_Phone",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Phone is displayed on layout"
+    },
+    {
+      "from": "object_Account",
+      "to": "layout_Account-Account_Sales_Layout",
+      "type": "HAS_LAYOUT",
+      "details": "Layout displays 28 fields"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_TickerSymbol",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field TickerSymbol is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_ParentId",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field ParentId is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_BillingAddress",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field BillingAddress is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_Type",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Type is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_AnnualRevenue",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field AnnualRevenue is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_SLA__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field SLA__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_Active__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Active__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_OwnerId",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field OwnerId is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_NumberofLocations__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field NumberofLocations__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_Ownership",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Ownership is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_SLASerialNumber__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field SLASerialNumber__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_CustomerPriority__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field CustomerPriority__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_Fax",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Fax is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_Name",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Name is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_LastModifiedById",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field LastModifiedById is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_SLAExpirationDate__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field SLAExpirationDate__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_Description",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Description is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_Website",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Website is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_NumberOfEmployees",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field NumberOfEmployees is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_Site",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Site is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_Industry",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Industry is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_Rating",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Rating is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_CreatedById",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field CreatedById is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_Sic",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Sic is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_ShippingAddress",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field ShippingAddress is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_AccountNumber",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field AccountNumber is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_UpsellOpportunity__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field UpsellOpportunity__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Sales_Layout",
+      "to": "field_Account_Phone",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Phone is displayed on layout"
+    },
+    {
+      "from": "object_Account",
+      "to": "layout_Account-Account_Support_Layout",
+      "type": "HAS_LAYOUT",
+      "details": "Layout displays 28 fields"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_TickerSymbol",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field TickerSymbol is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_ParentId",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field ParentId is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_BillingAddress",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field BillingAddress is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_Type",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Type is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_AnnualRevenue",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field AnnualRevenue is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_SLA__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field SLA__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_Active__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Active__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_OwnerId",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field OwnerId is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_NumberofLocations__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field NumberofLocations__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_Ownership",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Ownership is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_SLASerialNumber__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field SLASerialNumber__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_CustomerPriority__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field CustomerPriority__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_Fax",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Fax is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_Name",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Name is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_LastModifiedById",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field LastModifiedById is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_SLAExpirationDate__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field SLAExpirationDate__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_Description",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Description is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_Website",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Website is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_NumberOfEmployees",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field NumberOfEmployees is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_Site",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Site is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_Industry",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Industry is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_Rating",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Rating is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_CreatedById",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field CreatedById is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_Sic",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Sic is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_ShippingAddress",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field ShippingAddress is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_AccountNumber",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field AccountNumber is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_UpsellOpportunity__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field UpsellOpportunity__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Support_Layout",
+      "to": "field_Account_Phone",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Phone is displayed on layout"
+    },
+    {
+      "from": "object_Account",
+      "to": "layout_Account-Account_Layout",
+      "type": "HAS_LAYOUT",
+      "details": "Layout displays 28 fields"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_TickerSymbol",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field TickerSymbol is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_ParentId",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field ParentId is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_BillingAddress",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field BillingAddress is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_Type",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Type is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_AnnualRevenue",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field AnnualRevenue is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_SLA__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field SLA__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_Active__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Active__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_OwnerId",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field OwnerId is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_NumberofLocations__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field NumberofLocations__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_Ownership",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Ownership is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_SLASerialNumber__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field SLASerialNumber__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_CustomerPriority__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field CustomerPriority__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_Fax",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Fax is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_Name",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Name is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_LastModifiedById",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field LastModifiedById is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_SLAExpirationDate__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field SLAExpirationDate__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_Description",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Description is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_Website",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Website is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_NumberOfEmployees",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field NumberOfEmployees is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_Site",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Site is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_Industry",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Industry is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_Rating",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Rating is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_CreatedById",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field CreatedById is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_Sic",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Sic is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_ShippingAddress",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field ShippingAddress is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_AccountNumber",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field AccountNumber is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_UpsellOpportunity__c",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field UpsellOpportunity__c is displayed on layout"
+    },
+    {
+      "from": "layout_Account-Account_Layout",
+      "to": "field_Account_Phone",
+      "type": "DISPLAYS_FIELD",
+      "details": "Field Phone is displayed on layout"
+    },
+    {
+      "from": "class_AccountCallOutService",
+      "to": "class_AccountCallOutServiceHelper",
+      "type": "DEPENDS_ON_CLASS",
+      "details": "Calls methods or instantiates class"
+    },
+    {
+      "from": "class_AccountCallOutService",
+      "to": "class_AccountCallOutServiceHelper",
+      "type": "CALLS_METHOD",
+      "details": "Calls method sendHttpRequest"
+    },
+    {
+      "from": "class_AccountCallOutService",
+      "to": "class_AccountCallOutServiceHelper",
+      "type": "CALLS_METHOD",
+      "details": "Calls method getRequestToken"
+    },
+    {
+      "from": "class_AccountCallOutServiceHelper",
+      "to": "object_Http",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountCallOutServiceHelper",
+      "to": "object_ManageUsersOrgSettings__c",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountCallOutServiceHelper",
+      "to": "object_Jwt",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountCallOutServiceHelper",
+      "to": "object_Object",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountCallOutServiceHelper",
+      "to": "object_HttpRequest",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountCallOutServiceHelper",
+      "to": "class_EncodingUtil",
+      "type": "DEPENDS_ON_CLASS",
+      "details": "Calls methods or instantiates class"
+    },
+    {
+      "from": "class_AccountCallOutServiceHelper",
+      "to": "class_Jwt",
+      "type": "DEPENDS_ON_CLASS",
+      "details": "Calls methods or instantiates class"
+    },
+    {
+      "from": "class_AccountCallOutServiceHelper",
+      "to": "field_ManageUsersOrgSettings__c_InstanceURL__c",
+      "type": "ACCESSES_FIELD",
+      "details": "Accesses field InstanceURL__c on ManageUsersOrgSettings__c"
+    },
+    {
+      "from": "class_AccountCallOutServiceHelper",
+      "to": "field_ManageUsersOrgSettings__c_LoginURL__c",
+      "type": "ACCESSES_FIELD",
+      "details": "Accesses field LoginURL__c on ManageUsersOrgSettings__c"
+    },
+    {
+      "from": "class_AccountCallOutServiceHelper",
+      "to": "class_EncodingUtil",
+      "type": "CALLS_METHOD",
+      "details": "Calls method base64Encode"
+    },
+    {
+      "from": "class_AccountCallOutServiceHelper",
+      "to": "webservice_https___login.salesforce.com_services_oauth2_token",
+      "type": "CALLS_WEBSERVICE",
+      "details": "Makes HTTP callout to https://login.salesforce.com/services/oauth2/token"
+    },
+    {
+      "from": "class_AccountCallOutServiceHelper",
+      "to": "webservice_https___dynegy--raghudev.sandbox.my.salesforce.com_services_oauth2_token",
+      "type": "CALLS_WEBSERVICE",
+      "details": "Makes HTTP callout to https://dynegy--raghudev.sandbox.my.salesforce.com/services/oauth2/token"
+    },
+    {
+      "from": "class_AccountEmailHelper",
+      "to": "emailtemplate_Messaging.sendEmail",
+      "type": "USES_EMAIL_TEMPLATE",
+      "details": "Uses email template for messaging"
+    },
+    {
+      "from": "class_AccountEmailHelper",
+      "to": "emailtemplate_Messaging.SingleEmailMessage",
+      "type": "USES_EMAIL_TEMPLATE",
+      "details": "Uses email template for messaging"
+    },
+    {
+      "from": "class_AccountHandler",
+      "to": "object_conList",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountHandler",
+      "to": "object_Id",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountHandler",
+      "to": "object_accRecord",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountHandler",
+      "to": "object_Account",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountHandler",
+      "to": "object_old",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountHandler",
+      "to": "object_new",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountHandler",
+      "to": "object_do",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountHandler",
+      "to": "object_Contact",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountHandler",
+      "to": "object_ID",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountHandler",
+      "to": "class_Contact",
+      "type": "DEPENDS_ON_CLASS",
+      "details": "Calls methods or instantiates class"
+    },
+    {
+      "from": "class_AccountHandler",
+      "to": "class_AnimalCallOutService",
+      "type": "DEPENDS_ON_CLASS",
+      "details": "Calls methods or instantiates class"
+    },
+    {
+      "from": "class_AccountHandler",
+      "to": "class_AnimalCallOutService",
+      "type": "CALLS_METHOD",
+      "details": "Calls method getAnimalDetailsForAccount"
+    },
+    {
+      "from": "class_AccountHandlerTest",
+      "to": "object_acc",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountHandlerTest",
+      "to": "object_Account",
+      "type": "USES_OBJECT",
+      "details": "References object in SOQL/DML operations"
+    },
+    {
+      "from": "class_AccountHandlerTest",
+      "to": "class_Account",
+      "type": "DEPENDS_ON_CLASS",
+      "details": "Calls methods or instantiates class"
+    },
+    {
+      "from": "class_AccountHandlerTest",
+      "to": "field_Account_Industry",
+      "type": "ACCESSES_FIELD",
+      "details": "Accesses field Industry on Account"
+    },
+    {
+      "from": "object_Account",
+      "to": "trigger_AccountTrigger",
+      "type": "HAS_TRIGGER",
+      "details": "Trigger events: before insert, before update, after insert, after update"
+    },
+    {
+      "from": "trigger_AccountTrigger",
+      "to": "class_AccountHandler",
+      "type": "DELEGATES_TO_HANDLER",
+      "details": "Trigger delegates business logic to handler class"
+    },
+    {
+      "from": "trigger_AccountTrigger",
+      "to": "object_UI",
+      "type": "AFFECTS_OBJECT",
+      "details": "Trigger performs operations on UI"
+    },
+    {
+      "from": "trigger_AccountTrigger",
+      "to": "object_sceario",
+      "type": "AFFECTS_OBJECT",
+      "details": "Trigger performs operations on sceario"
+    },
+    {
+      "from": "trigger_AccountTrigger",
+      "to": "object_Integer",
+      "type": "AFFECTS_OBJECT",
+      "details": "Trigger performs operations on Integer"
+    },
+    {
+      "from": "object_Account",
+      "to": "workflow_Account",
+      "type": "HAS_WORKFLOW"
+    }
+  ],
+  "conversion_info": {
+    "timestamp": "2025-08-20T13:00:21.213926",
+    "source_directory": "force-app\\main\\default",
+    "output_directory": "converted_metadata"
+  }
+}

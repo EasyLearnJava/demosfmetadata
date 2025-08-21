@@ -1,0 +1,45 @@
+[
+  {
+    "id": "trigger_AccountTrigger",
+    "type": "ApexTrigger",
+    "name": "AccountTrigger",
+    "source_code": "trigger AccountTrigger on Account (before insert, before update, after insert, after update) {\n    \n    //Create Account --> Name is mandatory \n    //Create contact --> LastName is mandatory\n    //Establish relation ship between Account and Contact --> On the contact Populate the accountId field with the account id --> where is the accountID coming from ?\n      \n    //Recurssion\n    //Governor limits \n    //Order of execution\n    \n    if(trigger.isBefore && trigger.isInsert){\n\t\tAccountHandler.handleBeforeInsert(trigger.new);\n\t} \n    \n    if(trigger.isAfter && trigger.isInsert){\n        AccountHandler.handleAfterInsert(trigger.new);\n    }\n}\n\n\n/*\n  \n  if(trigger.isBefore && trigger.isInsert){\n\t\tAccountHandler.handleBeforeInsert(trigger.new);\n\t} \n \n if(trigger.isBefore && trigger.isInsert){\n\t\tAccountHandler.handleBeforeInsert(trigger.new);\n\t}\n    else if(trigger.isBefore && trigger.isUpdate){\n    \tAccountHandler.handleBeforeUpdate(trigger.new, trigger.old, trigger.oldMap);\n\t}\n    if(trigger.isAfter && trigger.isInsert){\n        AccountHandler.handleAfterInsert(trigger.new);\n    }\n    else if(trigger.isAfter && trigger.isUpdate){\n    \tAccountHandler.handleAfterUpdate(trigger.new);\n\t}\n*/\n\n//invoke here the handler class\n    //Trigger --> Handler class --> Helper Class \n\n\n  //ABC.bbc  \n    //Dont execute Industry --> technology in update sceario\n    //Perform a different logic in updat scenario\n   //Trigger Context variables \n    \n    \n    //UI --> Enter data --> Save --> Control comes to Trigger --> data is in trigger.new --> send this data to handler class --> write Business logic --> saved to DB\n    //Control\n    //Data\n    \n    \n    //Source to destination --> car --> Mustang\n    //Costco --> Instacart --> House door step --> person --> refre\n    //\n    //Browser --> Trigger -->  DB --> vehicle --> trigger.new\n    \n    //Browser --> Trigger\n \t//\t\t\t\ttrigger.new  --> BL --> DB\n \t//\t\t\t\t\n \t//Broswer --> Trigger --> trigger.new --> Handler Class\t--> BL\t\t\t\n    \n   \n    \n    \n    /*  \n    List<Integer> lst = new List<Integer>();\n    lst.add(3); // 0 \n    lst.add(7); // 1\n    lst.add(5); // 2 \n    \n    for(Integer abc : lst){\n        system.debug('The elements in the list are : ' + abc);\n    }\n    */\n   //trigger.new -- //lst --> variable containing all records\n   //bbc -- //abc --> temporary variable name tha can hold data for each iteration\n   //Account -- //Integer --> the type of data that is stored in the lst(List) variable\n  /*  \n    for(Account accRecord : trigger.new){\n        system.debug('The account record from UI is : ' + accRecord);\n        system.debug('The account record Name is : ' + accRecord.Name);        \n        system.debug('The account record Owner is : ' + accRecord.OwnerId);\n        \n        system.debug('Industry value before : ' + accRecord.Industry);\n        if(accRecord.Industry == null){\n            accRecord.Industry = 'Technology';\n        }\n        system.debug('Industry value after : ' + accRecord.Industry);\n        \n    } \n*/",
+    "metadata": {
+      "apiVersion": "60.0",
+      "status": "Active"
+    },
+    "trigger_events": [
+      "before insert",
+      "before update",
+      "after insert",
+      "after update"
+    ],
+    "comprehensive_dependencies": {
+      "objects": [
+        "UI",
+        "sceario",
+        "Integer"
+      ],
+      "classes": [
+        "AccountHandler"
+      ],
+      "fields": [
+        "Industry"
+      ],
+      "methods": [
+        "AccountHandler.handleBeforeUpdate",
+        "AccountHandler.handleAfterUpdate",
+        "AccountHandler.handleAfterInsert",
+        "AccountHandler.handleBeforeInsert"
+      ],
+      "custom_settings": [],
+      "web_services": [],
+      "email_templates": [],
+      "custom_labels": [],
+      "static_resources": [],
+      "triggers": [],
+      "workflows": []
+    },
+    "object": "Account"
+  }
+]
